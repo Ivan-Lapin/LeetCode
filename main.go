@@ -298,31 +298,6 @@ func getRow(rowIndex int) []int {
 	return slice[rowIndex]
 }
 
-// func init() {
-// 	in := bufio.NewScanner(os.Stdin)
-// 	in.Buffer(nil, math.MaxInt32)
-// 	f, _ := os.Create("user.out")
-// 	out := bufio.NewWriter(f)
-// 	for in.Scan() {
-// 		s := in.Bytes()
-// 		maxProfit, min := 0, math.MaxInt32
-// 		for i := 1; i < len(s); i++ {
-// 			v := int(s[i] & 15)
-// 			for i++; s[i]&15 < 10; i++ {
-// 				v = v*10 + int(s[i]&15)
-// 			}
-// 			if v < min {
-// 				min = v
-// 			} else if v-min > maxProfit {
-// 				maxProfit = v - min
-// 			}
-// 		}
-// 		fmt.Fprintln(out, maxProfit)
-// 	}
-// 	out.Flush()
-// 	os.Exit(0)
-// }
-
 func maxProfit2(prices []int) int {
 	profit := 0
 	min := prices[0]
@@ -582,49 +557,6 @@ func majorityElement(nums []int) int {
 	return number
 }
 
-// func convertToTitle(columnNumber int) string {
-// 	result := ""
-// 	for i := columnNumber; i > 0; i-- {
-// 		if columnNumber > 26 {
-// 			if i%26 == 0 {
-// 				columnNumber = columnNumber - i
-// 				for j, letter := range "ABCDEFGHIGKLMNOPQRSTUVWXYZ" {
-// 					if j == columnNumber+1 {
-// 						result = string(letter) + result
-// 					}
-// 				}
-// 				columnNumber = 26
-// 				i = columnNumber
-// 			}
-// 			result = convertToTitle(columnNumber)
-// 		} else {
-// 			for j, letter := range "ABCDEFGHIGKLMNOPQRSTUVWXYZ" {
-// 				if j == columnNumber+1 {
-// 					result = string(letter) + result
-// 				}
-// 			}
-// 		}
-// 	}
-// 	return result
-// 	// var count int
-// 	// for j, letter := range "ABCDEFGHIGKLMNOPQRSTUVWXYZ" {
-// 	// 	for i := 1; i <= columnNumber; i++ {
-// 	// 		if i == 26 {
-// 	// 			result = result + string(letter)
-// 	// 			i = 1
-// 	// 			if columnNumber > 26 {
-// 	// 				columnNumber = columnNumber - 26
-// 	// 			}
-// 	// 			break
-// 	// 		}
-// 	// 		count = i
-// 	// 	}
-// 	// 	if j == count {
-// 	// 		result = result + string(letter)
-// 	// 	}
-// 	// }
-// }
-
 func relativeSortArray(arr1 []int, arr2 []int) []int {
 	arr3 := []int{}
 	for _, letter := range arr2 {
@@ -748,20 +680,6 @@ func isHappy(n int) bool {
 	}
 }
 
-// func factorial(n int) float64 {
-// 	result := 0
-// 	if n == 0 {
-// 		return 1
-// 	} else {
-// 		for n > 0 {
-// 			result = result * n
-// 			n--
-// 		}
-// 	}
-// 	nice, _ := strconv.ParseFloat(string(result), 64)
-// 	return nice
-// }
-
 func factorial_2(n int) int {
 	if n == 0 {
 		return 1
@@ -782,29 +700,7 @@ func countCompleteDayPairs(hours []int) int {
 }
 
 func isPrefixAndSuffix(str1 string, str2 string) bool {
-	// flag := false
-	// if len(str1) > len(str2) {
-	// 	fmt.Println("len(str1) > len(str2)")
-	// 	return flag
-	// } else if str1 == str2 {
-	// 	flag = true
-	// 	return flag
-	// } else {
-	// 	if str1 != str2[:len(str1)]{
-	// 		fmt.Println("str1 != str2[:len(str1)]")
-	// 		return flag
-	// 	} else {
-	// 		for i := 1; i <= len(str2)-len(str1); i++ {
-	// 			word := str2[i:]
-	// 			fmt.Println("chois = ", word[:len(str1)])
-	// 			if str1 == word[:len(str1)] {
-	// 				flag = true
-	// 				break
-	// 			}
-	// 		}
-	// 		return flag
-	// 	}
-	// }
+
 	var flag bool
 	if len(str1) > len(str2) {
 		flag = false
@@ -941,23 +837,6 @@ func repeatedSubstringPattern(s string) bool {
 		return flag
 	}
 }
-
-// func getLucky(s string, k int) int {
-// 	result := 0
-// 	b := []byte(s)
-// 	for _, i := range b {
-// 		fmt.Println(i)
-// 		result += int(i - 'a' + 1)
-// 	}
-// 	fmt.Println(result)
-// 	for j := 0; j < k; j++ {
-// 		str = string(result)
-// 		for ind := 0; ind < len(str); ind++ {
-// 			result += ind
-// 		}
-// 	}
-// 	return result
-// }
 
 func arraySign(nums []int) int {
 	negative := 1
@@ -1180,75 +1059,6 @@ func summaryRanges(nums []int) []string {
 	return intervals
 }
 
-// func isValid(s string) bool {
-// 	stack := []string{}
-// 	stack_closed := []string{}
-// 	for i := range s {
-// 		if s[i] == '(' || s[i] == '[' || s[i] == '{' {
-// 			stack = append(stack, string(s[i]))
-// 		} else {
-// 			stack_closed = append(stack_closed, string(s[i]))
-// 		}
-// 	}
-// 	stack = append(stack, stack_closed...)
-// 	for i := range stack {
-
-// 	}
-// 	temp1 := 0
-// 	temp2 := 0
-// 	temp3 := 0
-// 	for i := range s {
-// 		if string(s[i]) == "[" {
-// 			temp1++
-// 		} else if string(s[i]) == "{" {
-// 			temp2++
-// 		} else if string(s[i]) == "(" {
-// 			temp3++
-// 		} else if string(s[i]) == "]" {
-// 			temp1--
-// 		} else if string(s[i]) == "}" {
-// 			temp2--
-// 		} else {
-// 			temp3--
-// 		}
-// 	}
-// 	if temp1 == 0 && temp2 == 0 && temp3 == 0 {
-// 		return true
-// 	} else {
-// 		return false
-// 	}
-// }
-
-func maxWidthRamp(nums []int) int { ////////?????????????????
-	maxrump := 0
-	point := 0
-	hashmap := make(map[int]int)
-	rightel := 0
-	rightind := 0
-	for i := 1; i < len(nums); i++ {
-		if nums[point] <= nums[i] && i-point >= maxrump {
-			maxrump = i - point
-			rightel = nums[i]
-			rightind = i
-			fmt.Println("[", nums[point], "]   [", nums[i], "]")
-			fmt.Println(point, "  ", i)
-			fmt.Println(maxrump)
-		} else if nums[i] < nums[point] {
-			hashmap[nums[point]] = point
-			point = i
-		}
-	}
-	if maxrump == 0 {
-		return 0
-	}
-	for key, val := range hashmap {
-		if key <= rightel {
-			maxrump = rightind - val
-		}
-	}
-	return maxrump
-} ////////?????????????????
-
 func longestPalindrome(s string) int {
 	result := 0
 	hashmap := make(map[rune]int)
@@ -1269,30 +1079,6 @@ func longestPalindrome(s string) int {
 	}
 	return result
 }
-
-// func merge(nums1 []int, m int, nums2 []int, n int) {
-// 	if m == 0 {
-// 		for i := 0; i < n; i++ {
-// 			nums1[i] = nums2[i]
-// 		}
-// 	}
-// 	i, j, k := m-1, n-1, m+n-1
-// 	for i >= 0 && j >= 0 {
-// 		if nums1[i] > nums2[j] {
-// 			nums1[k] = nums1[i]
-// 			i--
-// 		} else {
-// 			nums1[k] = nums2[j]
-// 			j--
-// 		}
-// 		k--
-// 	}
-// 	for j >= 0 {
-// 		nums1[k] = nums2[j]
-// 		j--
-// 		k--
-// 	}
-// }
 
 func searchInsert(nums []int, target int) int {
 	index := 0
@@ -1323,27 +1109,6 @@ func reverseStr(s string, k int) {
 	}
 	fmt.Println(stack)
 }
-
-// var stack []int
-
-// func plusOne(digits []int) []int {
-// 	if digits[len(digits)-1] == 9 {
-// 		digits[len(digits)-1] = 0
-// 		if len(digits) == 1 {
-// 			digits = append([]int{1}, digits...)
-// 			digits = append(digits, stack...)
-// 			goto myReturn
-// 		} else {
-// 			stack = append(stack, digits[len(digits)-1])
-// 			digits = plusOne(digits[:len(digits)-1])
-// 		}
-// 	} else {
-// 		digits[len(digits)-1] = digits[len(digits)-1] + 1
-// 	}
-// myReturn:
-// 	stack = stack[:0]
-// 	return digits
-// }
 
 func plusOne(digits []int) []int {
 	stack := []int{1}
@@ -1424,7 +1189,6 @@ func minimumBoxes(apple []int, capacity []int) int {
 }
 
 func encrypt(x uint64) uint64 {
-	fmt.Println("----------------")
 	strx := strconv.Itoa(int(x))
 	fmt.Println(len(strx))
 	maxnumb := 0
@@ -1434,16 +1198,13 @@ func encrypt(x uint64) uint64 {
 			maxnumb = elint
 		}
 	}
-	fmt.Printf("maxnumb = %d\n", maxnumb)
 	resnumb := ""
 	for i := 0; i < len(strx); i++ {
 		number := strconv.Itoa(maxnumb)
 		fmt.Println("Yes")
 		resnumb = resnumb + number
 	}
-	fmt.Printf("resnumb = %s\n", resnumb)
 	result, _ := strconv.Atoi(resnumb)
-	fmt.Println("----------------")
 	return uint64(result)
 }
 
@@ -1517,22 +1278,6 @@ func dayOfYear(date string) int {
 }
 
 func isPossibleToSplit(nums []int) bool {
-	// bubbleSort(nums)
-	// nums1 := []int{}
-	// nums2 := []int{}
-	// for i, num := range nums {
-	// 	if (i+1)%2 != 0 {
-	// 		nums1 = append(nums1, num)
-	// 	} else {
-	// 		nums2 = append(nums2, num)
-	// 	}
-	// }
-	// for i := 0; i < len(nums1)-1; i++ {
-	// 	if nums1[i] == nums1[i+1] || nums2[i] == nums2[i+1] {
-	// 		return false
-	// 	}
-	// }
-	// return true
 	hashmap := make(map[int]int)
 
 	for _, num := range nums {
@@ -1782,19 +1527,6 @@ func intersection(nums1 []int, nums2 []int) []int {
 	return result
 }
 
-// func alternatingSubarray(nums []int) int {
-// 	if len(nums) <= 1 {
-// 		return -1
-// 	}
-
-// 	s := []int{}
-// 	count := 0
-
-// 	for i := 0; i < len(s)-1; i++ {
-
-// 	}
-// }
-
 func addStrings(num1 string, num2 string) string {
 
 	dif := 0
@@ -1922,27 +1654,6 @@ func checkPerfectNumber(num int) bool {
 	}
 	return sum == num
 }
-
-// func isBadVersion(version int) bool
-
-// func firstBadVersion(n int) int {
-// 	left, right := 1, n
-
-// 	for left <= right {
-// 		mid := left + (right-left)/2
-
-// 		response := isBadVersion(mid)
-
-// 		switch response {
-// 		case true:
-// 			right = mid - 1
-// 		case false:
-// 			left = mid + 1
-// 		}
-
-// 	}
-// 	return right + 1
-// }
 
 func lemonadeChange(bills []int) bool {
 	sum5th := 0
@@ -2620,20 +2331,6 @@ func maximizeSum(nums []int, k int) int {
 	return answer
 }
 
-// func factorial(n int) float64 {
-// 	result := 0
-// 	if n == 0 {
-// 		return 1
-// 	} else {
-// 		for n > 0 {
-// 			result = result * n
-// 			n--
-// 		}
-// 	}
-// 	nice, _ := strconv.ParseFloat(string(result), 64)
-// 	return nice
-// }
-
 func factorial(n int) int {
 	result := 1
 	if n == 0 {
@@ -2803,22 +2500,6 @@ func sortedSquares(nums []int) []int {
 	return nums
 }
 
-// func reversePrefix(word string, ch byte) string {
-// 	per := 0
-// 	name := ""
-// 	for i := 0; i < len(word); i++ {
-// 		if word[i] == ch {
-// 			per = i
-// 			break
-// 		}
-// 	}
-// 	for i := per; i >= 0; i-- {
-// 		name = name + string(word[i])
-// 	}
-// 	name = name + word[per+1:]
-// 	return name
-// }
-
 func reversePrefix(word string, ch byte) string {
 	result := word
 	for i := range len(word) {
@@ -2923,26 +2604,6 @@ func (this *NumArray) SumRange(left int, right int) int {
 	return this.arr[right+1] - this.arr[left]
 }
 
-// func pivotIndex(nums []int) int {
-// 	left := 0
-// 	right := 0
-
-// 	for i := 1; i < len(nums); i++ {
-// 		right += nums[i]
-// 	}
-
-// 	for i := 0; i < len(nums)-1; i++ {
-// 		fmt.Printf("left = %d  right = %d \n", left, right)
-// 		if left == right {
-// 			return i
-// 		}
-// 		left += nums[i]
-// 		right -= nums[i+1]
-// 	}
-
-// 	return -1
-// }
-
 func pivotIndex(nums []int) int {
 	sum := 0
 	for _, num := range nums {
@@ -3009,5 +2670,4 @@ func bubbleSort[G generic](arr []G) {
 }
 
 func main() {
-	fmt.Println(isValid("()"))
 }
