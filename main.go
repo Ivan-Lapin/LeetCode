@@ -2653,6 +2653,26 @@ func isValid(s string) bool {
 	return true
 }
 
+func generateParenthesis(n int) []string {
+	var result []string
+	generateParenthesisHealper(n, &result, 0, 0, "")
+	return result
+}
+
+func generateParenthesisHealper(n int, result *[]string, open int, closed int, str string) {
+	if len(str) == 2*n {
+		*result = append(*result, str)
+	}
+
+	if open < n {
+		generateParenthesisHealper(n, result, open+1, closed, str+"(")
+	}
+
+	if closed < open {
+		generateParenthesisHealper(n, result, open, closed+1, str+")")
+	}
+}
+
 type generic interface {
 	int | string | float64
 }

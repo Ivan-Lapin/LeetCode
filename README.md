@@ -418,6 +418,8 @@ The following table lists the implemented LeetCode problems, including their pro
 | 2725 | [Interval Cancellation](https://leetcode.com/problems/interval-cancellation/) | Implement a function that repeatedly calls a callback at intervals with cancellation. | Easy |
 | 2726 | [Calculator with Method Chaining](https://leetcode.com/problems/calculator-with-method-chaining/) | Implement a calculator class that supports method chaining for arithmetic operations. | Easy |
 | 2727 | [Is Object Empty](https://leetcode.com/problems/is-object-empty/) | Check if an object or array is empty. | Easy |
+| 22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses. | Medium |
+
 
 ## Usage
 
