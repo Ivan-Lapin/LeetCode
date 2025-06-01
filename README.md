@@ -419,6 +419,8 @@ The following table lists the implemented LeetCode problems, including their pro
 | 2726 | [Calculator with Method Chaining](https://leetcode.com/problems/calculator-with-method-chaining/) | Implement a calculator class that supports method chaining for arithmetic operations. | Easy |
 | 2727 | [Is Object Empty](https://leetcode.com/problems/is-object-empty/) | Check if an object or array is empty. | Easy |
 | 22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses. | Medium |
+| 8    | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Implement the `myAtoi(string s)` function, which converts a string to a 32-bit signed integer with proper handling of whitespace, sign, non-digit characters, and overflow. | Medium |
+
 
 
 ## Usage

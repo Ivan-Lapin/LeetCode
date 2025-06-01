@@ -2673,6 +2673,43 @@ func generateParenthesisHealper(n int, result *[]string, open int, closed int, s
 	}
 }
 
+func myAtoi(s string) int {
+	s = strings.TrimSpace(s)
+	if len(s) == 0 {
+		return 0
+	}
+
+	i := 0
+	minusSign := false
+
+	if s[i] == '+' {
+		i = 1
+	} else if s[i] == '-' {
+		minusSign = true
+		i = 1
+	}
+
+	result := 0
+	for ; i < len(s); i++ {
+		if !(s[i] >= '0' && s[i] <= '9') {
+			break
+		}
+		result = result*10 + int(s[i]-'0')
+		if result > math.MaxInt32 || result < math.MinInt32 {
+			if minusSign {
+				return math.MinInt32
+			}
+			return math.MaxInt32
+		}
+	}
+
+	if minusSign {
+		result = -result
+	}
+
+	return result
+}
+
 type generic interface {
 	int | string | float64
 }
