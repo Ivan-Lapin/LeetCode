@@ -420,6 +420,8 @@ The following table lists the implemented LeetCode problems, including their pro
 | 2727 | [Is Object Empty](https://leetcode.com/problems/is-object-empty/) | Check if an object or array is empty. | Easy |
 | 22   | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses. | Medium |
 | 8    | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Implement the `myAtoi(string s)` function, which converts a string to a 32-bit signed integer with proper handling of whitespace, sign, non-digit characters, and overflow. | Medium |
+| 7    | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Reverse digits of a signed 32-bit integer, returning 0 if the result overflows the signed 32-bit range. | Medium |
+
 
 
 
