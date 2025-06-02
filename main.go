@@ -2710,6 +2710,32 @@ func myAtoi(s string) int {
 	return result
 }
 
+func reverse(x int) int {
+	result := 0
+	minusSign := false
+
+	str := strconv.Itoa(x)
+	if str[0] == '-' {
+		minusSign = true
+		str = str[1:]
+	} else if str[0] == '+' {
+		str = str[1:]
+	}
+
+	for i := 0; i < len(str); i++ {
+		result = result + (int(str[i]-'0') * int(math.Pow(float64(10), float64(i))))
+		if result < math.MinInt32 || result > math.MaxInt32 {
+			return 0
+		}
+	}
+
+	if minusSign {
+		result = -result
+	}
+
+	return result
+}
+
 type generic interface {
 	int | string | float64
 }
