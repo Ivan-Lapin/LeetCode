@@ -2516,23 +2516,11 @@ func reversePrefix(word string, ch byte) string {
 }
 
 func moveZeroes(nums []int) {
-	l := 0
-	r := 0
-	for l < len(nums) && r < len(nums) {
-		if nums[l] == 0 && nums[r] != 0 && l < r {
-			temp := nums[l]
-			nums[l] = nums[r]
-			nums[r] = temp
-		} else {
-			if nums[l] != 0 {
-				l++
-			}
-			if nums[r] == 0 {
-				r++
-			}
-			if l > r {
-				r = l
-			}
+	zero := 0
+	for i := 0; i < len(nums); i++ {
+		if nums[i] != 0 {
+			nums[i], nums[zero] = nums[zero], nums[i]
+			zero++
 		}
 	}
 }
