@@ -1026,37 +1026,26 @@ func containsNearbyDuplicate(nums []int, k int) bool {
 }
 
 func summaryRanges(nums []int) []string {
-	intervals := []string{}
-	count := ""
 	if len(nums) == 0 {
-		return intervals
+		return []string{}
 	}
-	if len(nums) == 1 {
-		count = strconv.Itoa(nums[0])
-		intervals = append(intervals, count)
-		return intervals
-	}
-	ind := 0
-	for i := 1; i < len(nums); i++ {
-		if nums[i] != nums[i-1]+1 {
-			if i-ind > 1 {
-				count = strconv.Itoa(nums[ind]) + "->" + strconv.Itoa(nums[i-1])
+	result := []string{}
+
+	start := nums[0]
+	for i := 1; i <= len(nums); i++ {
+		if nums[i] != nums[i-1]+1 || i == len(nums) {
+			if start == nums[i-1] {
+				result = append(result, strconv.Itoa(start))
 			} else {
-				count = strconv.Itoa(nums[ind])
+				result = append(result, fmt.Sprintf("%d->%d", start, nums[i-1]))
 			}
 
-			intervals = append(intervals, count)
-			ind = i
-		} else if i == len(nums)-1 {
-			count = strconv.Itoa(nums[ind]) + "->" + strconv.Itoa(nums[i])
-			intervals = append(intervals, count)
+			if i != len(nums) {
+				start = nums[i]
+			}
 		}
 	}
-	if nums[len(nums)-1]-1 != nums[len(nums)-2] {
-		count := strconv.Itoa(nums[len(nums)-1])
-		intervals = append(intervals, count)
-	}
-	return intervals
+	return result
 }
 
 func longestPalindrome(s string) int {
