@@ -422,7 +422,7 @@ The following table lists the implemented LeetCode problems, including their pro
 | 8    | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Implement the `myAtoi(string s)` function, which converts a string to a 32-bit signed integer with proper handling of whitespace, sign, non-digit characters, and overflow. | Medium |
 | 7    | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Reverse digits of a signed 32-bit integer, returning 0 if the result overflows the signed 32-bit range. | Medium |
 | 423	| [Reconstruct Original Digits from English] (https://leetcode.com/problems/reconstruct-original-digits-from-english/description/) |	Given a string s containing an out-of-order English representation of digits 0–9, return the digits in ascending order. | Medium |
-
+| 482    | [License Key Formatting]  (https://leetcode.com/problems/license-key-formatting/description/) | Given a license key string containing letters, digits, and dashes, and an integer k, reformat the string so every group (except possibly the first) has exactly k uppercase alphanumeric characters, separated by dashes, and remove extra dashes. | Easy |
 
 
 

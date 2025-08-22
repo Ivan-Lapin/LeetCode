@@ -2806,6 +2806,32 @@ func originalDigits(s string) string {
 
 }
 
+func licenseKeyFormatting(s string, k int) string {
+	lenght := 0
+	newWord := ""
+	result := ""
+	for i := 0; i < len(s); i++ {
+		if string(s[i]) != "-" {
+			lenght++
+			newWord += string(s[i])
+		}
+	}
+	newWord = strings.ToUpper(newWord)
+
+	step := 0
+	for i := len(newWord) - 1; i >= 0; i-- {
+		step++
+		result = string(newWord[i]) + result
+		if step == k && i != 0 {
+			step = 0
+			result = "-" + result
+		}
+	}
+	return result
+}
+
 func main() {
-	fmt.Println(originalDigits("zerozero"))
+	s := "2-5g-3-J"
+	k := 2
+	fmt.Println(licenseKeyFormatting(s, k))
 }
