@@ -9,6 +9,7 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"time"
 	"unicode"
 )
 
@@ -1033,7 +1034,7 @@ func summaryRanges(nums []int) []string {
 
 	start := nums[0]
 	for i := 1; i <= len(nums); i++ {
-		if nums[i] != nums[i-1]+1 || i == len(nums) {
+		if i == len(nums) || nums[i] != nums[i-1]+1 {
 			if start == nums[i-1] {
 				result = append(result, strconv.Itoa(start))
 			} else {
@@ -2713,6 +2714,23 @@ func reverse(x int) int {
 	return result
 }
 
+func subarraySum(nums []int, k int) int {
+	subarrFreq := make(map[int]int)
+	subarrFreq[0] = 1
+	result := 0
+	prefixSum := 0
+
+	for i := 0; i < len(nums); i++ {
+		prefixSum += nums[i]
+		if val, ok := subarrFreq[prefixSum-k]; ok {
+			result += val
+		}
+		subarrFreq[prefixSum]++
+	}
+
+	return result
+}
+
 type generic interface {
 	int | string | float64
 }
@@ -2729,5 +2747,65 @@ func bubbleSort[G generic](arr []G) {
 	fmt.Println(arr)
 }
 
+func doMap(s string) map[byte]int {
+	hashMap := make(map[byte]int)
+	for i := 0; i < len(s); i++ {
+		hashMap[s[i]]++
+	}
+	fmt.Println("Word Map:", hashMap)
+	return hashMap
+}
+
+func originalDigits(s string) string {
+	letters := []byte{'z', 'w', 'x', 's', 'g', 'h', 'r', 'f', 'o', 'n'}
+	digitMap := make(map[byte]string)
+	digitMap['z'] = "0"
+	digitMap['w'] = "2"
+	digitMap['x'] = "6"
+	digitMap['s'] = "7"
+	digitMap['g'] = "8"
+	digitMap['h'] = "3"
+	digitMap['r'] = "4"
+	digitMap['f'] = "5"
+	digitMap['o'] = "1"
+	digitMap['n'] = "9"
+
+	strMap := make(map[byte]string)
+	strMap['z'] = "zero"
+	strMap['w'] = "two"
+	strMap['x'] = "six"
+	strMap['s'] = "seven"
+	strMap['g'] = "eight"
+	strMap['h'] = "three"
+	strMap['r'] = "four"
+	strMap['f'] = "five"
+	strMap['o'] = "one"
+	strMap['n'] = "nine"
+
+	wordMap := doMap(s)
+	result := ""
+	for i := 0; i < len(letters); {
+		fmt.Println("let:", string(letters[i]))
+		if val, ok := wordMap[letters[i]]; ok && val > 0 {
+			result += digitMap[letters[i]]
+			fmt.Println(string(strMap[letters[i]]))
+			for j := 0; j < len(string(strMap[letters[i]])); j++ {
+				l := strMap[letters[i]][j]
+				fmt.Println("l", string(l))
+				wordMap[l]--
+			}
+			fmt.Println("Word Map:", wordMap)
+		} else {
+			i++
+		}
+		time.Sleep(time.Second)
+	}
+	slice := strings.Split(result, "")
+	sort.Strings(slice)
+	return strings.Join(slice, "")
+
+}
+
 func main() {
+	fmt.Println(originalDigits("zerozero"))
 }
