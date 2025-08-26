@@ -2830,8 +2830,28 @@ func licenseKeyFormatting(s string, k int) string {
 	return result
 }
 
+func minOperations_Middle(nums []int) int {
+
+	count := 0
+
+	stack := []int{0}
+	for _, num := range nums {
+		for len(stack) > 0 {
+			if num > stack[len(stack)-1] {
+				stack = append(stack, num)
+				count++
+				break
+			} else if num == stack[len(stack)-1] {
+				break
+			} else {
+				stack = stack[0 : len(stack)-1]
+			}
+		}
+	}
+	return count
+}
+
 func main() {
-	s := "2-5g-3-J"
-	k := 2
-	fmt.Println(licenseKeyFormatting(s, k))
+	nums := []int{1, 2, 1, 2, 1, 2}
+	fmt.Println(minOperations_Middle(nums))
 }
