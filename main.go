@@ -2851,7 +2851,57 @@ func minOperations_Middle(nums []int) int {
 	return count
 }
 
+// func numMatchingSubseq(s string, words []string) int {
+// 	count := 0
+// 	for _, word := range words {
+
+// 		match := func(str string, w string) bool {
+// 			ind := 0
+// 			for j := range w {
+// 				for ind < len(str) && str[ind] != w[j] {
+// 					ind++
+// 				}
+// 			}
+// 			return true
+// 		}(s, word)
+
+// 		if match {
+// 			count++
+// 		}
+// 	}
+// 	return count
+// }
+
+func maximumSum(arr []int) int {
+
+	dpNoDel := arr[0]
+
+	dpDel := arr[0]
+
+	res := arr[0]
+
+	for i := 1; i < len(arr); i++ {
+
+		dpDel = max(dpNoDel, dpDel+arr[i])
+
+		dpNoDel = max(arr[i], dpNoDel+arr[i])
+
+		res = max(res, max(dpNoDel, dpDel))
+	}
+
+	return res
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
 func main() {
-	nums := []int{1, 2, 1, 2, 1, 2}
-	fmt.Println(minOperations_Middle(nums))
+	a := 5
+	b := -2
+	c := a - b
+	fmt.Println(c)
 }
