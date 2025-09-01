@@ -2899,9 +2899,39 @@ func max(a, b int) int {
 	return b
 }
 
+func canReorderDoubled(arr []int) bool {
+
+	groups := 0
+	sort.Slice(arr, func(i, j int) bool {
+		if arr[i] < 0 {
+			return arr[i] < arr[j]
+		}
+		return arr[i] > arr[j]
+	})
+
+	numDoubleMap := make(map[int]int)
+
+	for _, num := range arr {
+		findNum := num * 2
+
+		if val, _ := numDoubleMap[findNum]; val > 0 {
+			if numDoubleMap[findNum] > 0 {
+				groups++
+				numDoubleMap[findNum]--
+			}
+		} else {
+			numDoubleMap[num]++
+		}
+	}
+
+	if groups == len(arr)/2 {
+		return true
+	}
+
+	return false
+}
+
 func main() {
-	a := 5
-	b := -2
-	c := a - b
-	fmt.Println(c)
+	arr := []int{1, 6, -4, -1, -7, 3}
+	fmt.Println(canReorderDoubled(arr))
 }
