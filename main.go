@@ -2931,7 +2931,398 @@ func canReorderDoubled(arr []int) bool {
 	return false
 }
 
+func isAcronym(words []string, s string) bool {
+	var str strings.Builder
+
+	for _, word := range words {
+		str.WriteByte(word[0])
+	}
+
+	if str.String() == s {
+		return true
+	}
+
+	return false
+
+}
+
+func average(salary []int) float64 {
+	min := salary[0]
+	max := salary[0]
+	sum := 0
+
+	for _, num := range salary {
+		if min > num {
+			min = num
+		}
+		if max < num {
+			max = num
+		}
+		sum += num
+	}
+
+	sum = sum - min - max
+	d := len(salary) - 2
+	return float64(sum) / float64(d)
+}
+
+func slowestKey(releaseTimes []int, keysPressed string) byte {
+	maxTime := releaseTimes[0]
+	indexByMaxTime := 0
+	time := 0
+	for i := 1; i < len(releaseTimes); i++ {
+		time = releaseTimes[i] - releaseTimes[i-1]
+		if time > maxTime || (time == maxTime && keysPressed[i] > keysPressed[indexByMaxTime]) {
+			maxTime = time
+			indexByMaxTime = i
+		}
+	}
+
+	return keysPressed[indexByMaxTime]
+}
+
+func findPrimePairs(n int) [][]int {
+
+	notPrime := make([]bool, n+1)
+
+	for i := 2; i*i < n; i++ {
+		if !notPrime[i] {
+			for j := i * i; j < n; j += i {
+				notPrime[j] = true
+			}
+		}
+	}
+
+	result := [][]int{}
+	for l, r := 2, n-2; l <= r; l, r = l+1, r-1 {
+		if !notPrime[l] && !notPrime[r] {
+			result = append(result, []int{l, r})
+
+		}
+	}
+	return result
+}
+
+func numberOfEmployeesWhoMetTarget(hours []int, target int) int {
+	result := 0
+	for _, hour := range hours {
+		if hour >= target {
+			result++
+		}
+	}
+	return result
+}
+
+type Spreadsheet struct {
+	matrix map[rune][]int
+}
+
+func NewSpreadsheet(rows int) Spreadsheet {
+	matrix := make(map[rune][]int)
+
+	for i := 'A'; i <= 'Z'; i++ {
+		matrix[i] = make([]int, rows)
+	}
+
+	return Spreadsheet{
+		matrix: matrix,
+	}
+}
+
+func (this *Spreadsheet) SetCell(cell string, value int) {
+	column := cell[0]
+	row_str := cell[1:]
+	row, _ := strconv.Atoi(row_str)
+	this.matrix[rune(column)][row-1] = value
+}
+
+func (this *Spreadsheet) ResetCell(cell string) {
+	column := cell[0]
+	row_str := cell[1:]
+	row, _ := strconv.Atoi(row_str)
+	this.matrix[rune(column)][row-1] = 0
+}
+
+func (this *Spreadsheet) GetValue(formula string) int {
+	sum := 0
+
+	first_part := ""
+	second_part := ""
+	for i, ch := range formula {
+		if ch == rune('+') {
+			first_part = formula[1:i]
+			second_part = formula[i+1:]
+			break
+		}
+	}
+
+	if val, err := strconv.Atoi(first_part); err == nil {
+		sum += val
+	} else {
+		column := first_part[0]
+		row_str := first_part[1:]
+		row, _ := strconv.Atoi(row_str)
+		sum += this.matrix[rune(column)][row-1]
+	}
+
+	if val, err := strconv.Atoi(second_part); err == nil {
+		sum += val
+	} else {
+		column := second_part[0]
+		row_str := second_part[1:]
+		row, _ := strconv.Atoi(row_str)
+		sum += this.matrix[rune(column)][row-1]
+	}
+
+	return sum
+
+}
+
+/**
+ * Your Spreadsheet object will be instantiated and called as such:
+ * obj := Constructor(rows);
+ * obj.SetCell(cell,value);
+ * obj.ResetCell(cell);
+ * param_3 := obj.GetValue(formula);
+ */
+
+func numIdenticalPairs(nums []int) int {
+	result := 0
+	for i := 0; i < len(nums)-1; i++ {
+		for j := i + 1; j < len(nums); j++ {
+			if nums[i] == nums[j] {
+				result++
+			}
+		}
+	}
+	return result
+}
+
+func flipAndInvertImage(image [][]int) [][]int {
+	for i := range image {
+		for j := 0; j <= (len(image[i])+1)/2; i++ {
+
+			a := image[i][j]
+
+			if image[i][len(image)-j-1] == 0 {
+				image[i][j] = 1
+			} else {
+				image[i][j] = 0
+			}
+
+			if a == 0 {
+				image[i][len(image)-j-1] = 1
+			} else {
+				image[i][len(image)-j-1] = 0
+			}
+
+		}
+	}
+
+	return image
+}
+
+func isIdealPermutation(nums []int) bool {
+
+	for i := 0; i < len(nums); i++ {
+		if math.Abs(float64(i-nums[i])) > 1 {
+			return false
+		}
+	}
+
+	return true
+}
+
+func numberOfSubstrings(s string) int {
+
+	count := 0
+
+	abcMap := make(map[byte]int)
+	abcMap['a'] = 0
+	abcMap['b'] = 0
+	abcMap['c'] = 0
+
+	l := 0
+
+	for r := 0; r < len(s); r++ {
+		abcMap[s[r]]++
+		for abcMap['a'] > 0 && abcMap['b'] > 0 && abcMap['c'] > 0 {
+			count += len(s) - r
+			abcMap[s[l]]--
+			l++
+		}
+	}
+
+	return count
+}
+
+func find132pattern(nums []int) bool {
+
+	if len(nums) < 3 {
+		return false
+	}
+
+	type pair struct {
+		num     int
+		minLeft int
+	}
+
+	stack := make([]pair, 0)
+
+	min := nums[0]
+
+	for i := 1; i < len(nums); i++ {
+
+		fmt.Printf("stack: %v\n", stack)
+
+		for len(stack) > 0 && nums[i] > stack[len(stack)-1].num {
+			stack = stack[:len(stack)-1]
+		}
+
+		if len(stack) > 0 && nums[i] > stack[len(stack)-1].minLeft && nums[i] < stack[len(stack)-1].num {
+			return true
+		}
+
+		stack = append(stack, pair{nums[i], min})
+		if nums[i] < min {
+			min = nums[i]
+		}
+
+	}
+
+	return false
+}
+
+func maximumTime(time string) string {
+
+	arr := strings.Split(time, "")
+
+	if arr[0] == "?" && arr[1] == "?" {
+		arr[0], arr[1] = "2", "3"
+	} else if arr[0] == "?" || arr[1] == "?" {
+		if arr[0] == "?" {
+			if arr[1] < "4" {
+				arr[0] = "2"
+			} else {
+				arr[0] = "1"
+			}
+		}
+
+		if arr[1] == "?" {
+			if arr[0] < "2" {
+				arr[1] = "9"
+			} else {
+				arr[1] = "3"
+			}
+		}
+	}
+
+	if arr[3] == "?" && arr[4] == "?" {
+		arr[3], arr[4] = "5", "9"
+	} else if arr[3] == "?" || arr[4] == "?" {
+		if arr[3] == "?" {
+			arr[3] = "5"
+		}
+
+		if arr[4] == "?" {
+			arr[4] = "9"
+		}
+	}
+
+	return strings.Join(arr, "")
+}
+
+func hasSpecialSubstring(s string, k int) bool {
+
+	if len(s) == 1 {
+		return true
+	}
+
+	arr := strings.Split(s, "")
+	count := 1
+	l := 0
+	for i := 1; i < len(arr); i++ {
+		if i != 0 && arr[i] == arr[i-1] {
+			count++
+		} else {
+			l = i
+			count = 1
+		}
+		if count == k {
+			if ((l != 0 && arr[l-1] != arr[i]) || l == 0) && ((i != len(arr)-1 && arr[i+1] != arr[i]) || i == len(arr)-1) {
+				return true
+			}
+		}
+	}
+	return false
+}
+
+func findPath(edges map[int][]int, source int, destination int, visited map[int]bool) bool {
+
+	if source == destination {
+		return true
+	}
+
+	if visited[source] {
+		return false
+	}
+
+	visited[source] = true
+
+	for _, num := range edges[source] {
+		if findPath(edges, num, destination, visited) {
+			return true
+		}
+	}
+	return false
+}
+
+func validPath(n int, edges [][]int, source int, destination int) bool {
+
+	routeVert := make(map[int][]int)
+
+	for _, edge := range edges {
+		routeVert[edge[0]] = append(routeVert[edge[0]], edge[1])
+		routeVert[edge[1]] = append(routeVert[edge[1]], edge[0])
+	}
+
+	visited := make(map[int]bool)
+
+	return findPath(routeVert, source, destination, visited)
+
+}
+
+func findJudge(n int, trust [][]int) int {
+
+	arr := make([]int, n+1)
+
+	for _, tr := range trust {
+		arr[tr[1]]++
+		arr[tr[0]]--
+	}
+
+	for i := 1; i <= n; i++ {
+		if arr[i] == n-1 {
+			return arr[i]
+		}
+	}
+
+	return -1
+
+}
+
+func doesAliceWin(s string) bool {
+
+	for i := range s {
+		if s[i] == 'a' || s[i] == 'e' || s[i] == 'i' || s[i] == 'o' || s[i] == 'u' {
+			return true
+		}
+	}
+
+	return false
+}
+
 func main() {
-	arr := []int{1, 6, -4, -1, -7, 3}
-	fmt.Println(canReorderDoubled(arr))
+	a := [][]int{{1, 2}, {2, 3}}
+	fmt.Println(findJudge(3, a))
 }
