@@ -442,6 +442,52 @@ The following table lists the implemented LeetCode problems, including their pro
 | 1629 | [Slowest Key](https://leetcode.com/problems/slowest-key/) | Find the key pressed with the longest duration. If there is a tie, return the lexicographically larger key. | Easy  
 | 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/) | Compute the average salary of employees excluding the minimum and maximum salary. | Easy  
 | 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/) | See if string s is an acronym of the words array, formed by the first character of each word in order. | Easy
+| 654  | [Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/) | Construct the maximum binary tree from an array by recursively selecting the maximum element as the root and building left and right subtrees from subarrays split by the maximum element. | Medium   |
+| 144  | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) | Return the preorder traversal (root, left, right) of a binary tree's nodes' values. | Easy     |
+| 94   | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | Return the inorder traversal (left, root, right) of a binary tree's nodes' values. | Easy     |
+| 965  | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/description/) | Determine whether all nodes in a binary tree have the same value. | Easy     |
+| 563  | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/description/) | Calculate the sum of all nodes' tilts, where the tilt of a node is the absolute difference between the sum of values of its left and right subtrees. | Easy     |
+| 101  | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) | Check if a binary tree is a mirror of itself (symmetric around its center). | Easy     |
+| 100  | [Same Tree](https://leetcode.com/problems/same-tree/description/) | Check if two binary trees are structurally identical with the same node values. | Easy     |
+| 3131 | [Find the Integer Added to Array I](https://leetcode.com/problems/find-the-integer-added-to-array-i/description/) | Given two arrays where one is formed by adding a fixed integer to all elements of the other, find that integer. | Easy     |
+| 345  | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | Reverse only the vowels in a given string, preserving the position of other characters. | Easy     |
+| 2148 | [Count Elements With Strictly Smaller and Greater Elements](https://leetcode.com/problems/count-elements-with-strictly-smaller-and-greater-elements/description/) | Count elements in an array that have both a strictly smaller and strictly greater element in the array. | Easy     |
+| 2239 | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/description/) | Find the number closest to zero in an array; if there are ties, return the larger number. | Easy     |
+| 2365 | [Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/description/) | Calculate the minimum number of days to complete tasks in order with a cooldown period between same task types. | Medium   |
+| 2079 | [Watering Plants](https://leetcode.com/problems/watering-plants/description/) | Determine the number of steps required to water plants in order with a limited watering can capacity. | Medium   |
+| 2515 | [Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/description/) | Find shortest distance to reach target string in a circular array from a start index. | Easy     |
+| 257  | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/) | Return all root-to-leaf paths in a binary tree. | Easy     |
+| 226  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/) | Invert a binary tree, swapping left and right children of all nodes. | Easy     |
+| 110  | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/description/) | Check if a binary tree is height-balanced, i.e., difference in heights of left and right subtrees of every node is at most 1. | Easy     |
+| 617  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) | Merge two binary trees by summing overlapping nodes and reusing non-null nodes. | Easy     |
+| 2900 | [Longest Unequal Adjacent Groups Subsequence I](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-i/description/) | Find the longest subsequence from words such that adjacent strings differ in associated binary groups. | Easy     |
+| 1668 | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/description/) | Find the maximum k such that word repeated k times is a substring of sequence. | Easy     |
+| 1137 | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/description/) | Compute the n-th Tribonacci number where each term is the sum of the preceding three terms. | Easy     |
+| 1025 | [Divisor Game](https://leetcode.com/problems/divisor-game/description/) | Determine if the first player wins a game where players subtract divisors of n. | Easy     |
+| 746  | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/) | Find minimum cost to reach the top of stairs with steps of one or two stairs at a time. | Easy     |
+| 509  | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/description/) | Compute the n-th Fibonacci number. | Easy     |
+| 338  | [Counting Bits](https://leetcode.com/problems/counting-bits/description/) | For each number up to n, count the number of 1 bits in binary representation. | Easy     |
+| 2855 | [Minimum Right Shifts to Sort the Array](https://leetcode.com/problems/minimum-right-shifts-to-sort-the-array/description/) | Find minimum number of right shifts to sort a distinct integer array or return -1 if impossible. | Easy     |
+| 3043 | [Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/description/) | Find longest common prefix length among all pairs from two integer arrays. | Medium   |
+| 3158 | [Find the XOR of Numbers Which Appear Twice](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice/description/) | Return XOR of numbers appearing exactly twice in the array. | Easy     |
+| 2154 | [Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/description/) | Repeatedly multiply a found value by two as long as it is found in the array; return final value. | Easy     |
+| 682  | [Baseball Game](https://leetcode.com/problems/baseball-game/description/) | Calculate total score given operations to record, double, add, or remove previous scores. | Easy     |
+| 3227 | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/description/) | Determine the winner of a game removing substrings with counts of vowels varying by turn. | Medium   |
+| 997  | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/) | Identify the town judge who trusts no one but is trusted by everyone else. | Easy     |
+| 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/description/) | Check if a valid path exists between two vertices in a bi-directional graph. | Easy     |
+| 3456 | [Find Special Substring of Length K](https://leetcode.com/problems/find-special-substring-of-length-k/description/) | Determine if a substring of length k exists with one distinct character and differing neighbors. | Easy     |
+| 1736 | [Latest Time by Replacing Hidden Digits](https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/description/) | Replace hidden digits in a time string to get the latest valid time. | Easy     |
+| 456  | [132 Pattern](https://leetcode.com/problems/132-pattern/description/) | Check if there exists a subsequence of three numbers following the 132 pattern. | Medium   |
+| 1358 | [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/) | Count substrings containing at least one of each character 'a', 'b', and 'c'. | Medium   |
+| 775  | [Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/description/) | Verify if the number of global inversions equals the number of local inversions in an array. | Medium   |
+| 832  | [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description/) | Flip a binary matrix horizontally and invert values (0 ↔ 1). | Easy     |
+| 1512 | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/) | Count pairs (i, j) with i < j and nums[i] == nums[j]. | Easy     |
+| 3484 | [Design Spreadsheet](https://leetcode.com/problems/design-spreadsheet/description/) | Implement spreadsheet class with set, reset, and formula evaluation capabilities. | Medium   |
+| 2798 | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/description/) | Return count of employees who met or exceeded given target hours. | Easy     |
+| 2761 | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/description/) | Find all pairs of primes x ≤ y where x + y = n. | Medium   |
+| 1629 | [Slowest Key](https://leetcode.com/problems/slowest-key/description/) | Return the key pressed for the longest duration or lexicographically largest in case of ties. | Easy     |
+| 1491 | [Average Salary Excluding the Minimum and Maximum Salary](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/description/) | Compute average salary excluding the minimum and maximum. | Easy     |
+| 2828 | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/description/) | Verify if string s is an acronym formed from the first characters of words array. | Easy     |
 
 
 

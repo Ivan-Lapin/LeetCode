@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"math"
+	"math/bits"
 	"regexp"
 	"slices"
 	"sort"
@@ -12,6 +13,36 @@ import (
 	"time"
 	"unicode"
 )
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
+
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
+
+type LinkedList struct {
+	head *ListNode
+}
+
+type NumArray struct {
+	arr []int
+}
+
+type Spreadsheet struct {
+	matrix map[rune][]int
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
 
 func chek(err error) {
 	if err != nil {
@@ -339,58 +370,58 @@ func singleNumber(nums []int) int {
 	return res
 }
 
-func longestCommonPrefix(strs []string) string {
-	prefix := ""
-	if len(strs) == 1 {
-		prefix = string(strs[0])
-	} else if len(strs) > 1 {
-		first := strs[0]
-		second := strs[1]
-		for i := 0; i < len(first) && i < len(second); i++ {
-			if first[i] != second[i] {
-				break
-			} else {
-				prefix = prefix + string(first[i])
-			}
-		}
-		fmt.Println(prefix, " - prefix")
-		for i := 2; i < len(strs); i++ {
-			arr := strs[i]
-			count := false
-			if len(arr) != 0 {
-				fmt.Println(arr, " - arr")
-				fmt.Println(count, " - count")
-				for j := 0; j < len(arr) && j < len(prefix); j++ {
-					fmt.Println(prefix, " - prefix")
-					fmt.Println(string(prefix[j]), " = prefix[j]")
-					fmt.Println(string(arr[j]), " = arr[j]")
-					fmt.Println(j, " = j")
-					if string(prefix[j]) != string(arr[j]) && count == false {
-						fmt.Println("FirstIf")
-						prefix = ""
-						break
-					} else if string(prefix[j]) != string(arr[j]) && count == true {
-						fmt.Println("SecondIf")
-						prefix = prefix[:j]
-						fmt.Println(prefix, " - prefix")
-						break
-					} else if arr[j] == prefix[j] {
-						if j == len(prefix)-1 {
-							break
-						} else if j == len(arr)-1 {
-							prefix = arr
-						} else {
-							count = true
-						}
-					}
-				}
-			} else {
-				prefix = ""
-			}
-		}
-	}
-	return prefix
-}
+// func longestCommonPrefix(strs []string) string {
+// 	prefix := ""
+// 	if len(strs) == 1 {
+// 		prefix = string(strs[0])
+// 	} else if len(strs) > 1 {
+// 		first := strs[0]
+// 		second := strs[1]
+// 		for i := 0; i < len(first) && i < len(second); i++ {
+// 			if first[i] != second[i] {
+// 				break
+// 			} else {
+// 				prefix = prefix + string(first[i])
+// 			}
+// 		}
+// 		fmt.Println(prefix, " - prefix")
+// 		for i := 2; i < len(strs); i++ {
+// 			arr := strs[i]
+// 			count := false
+// 			if len(arr) != 0 {
+// 				fmt.Println(arr, " - arr")
+// 				fmt.Println(count, " - count")
+// 				for j := 0; j < len(arr) && j < len(prefix); j++ {
+// 					fmt.Println(prefix, " - prefix")
+// 					fmt.Println(string(prefix[j]), " = prefix[j]")
+// 					fmt.Println(string(arr[j]), " = arr[j]")
+// 					fmt.Println(j, " = j")
+// 					if string(prefix[j]) != string(arr[j]) && count == false {
+// 						fmt.Println("FirstIf")
+// 						prefix = ""
+// 						break
+// 					} else if string(prefix[j]) != string(arr[j]) && count == true {
+// 						fmt.Println("SecondIf")
+// 						prefix = prefix[:j]
+// 						fmt.Println(prefix, " - prefix")
+// 						break
+// 					} else if arr[j] == prefix[j] {
+// 						if j == len(prefix)-1 {
+// 							break
+// 						} else if j == len(arr)-1 {
+// 							prefix = arr
+// 						} else {
+// 							count = true
+// 						}
+// 					}
+// 				}
+// 			} else {
+// 				prefix = ""
+// 			}
+// 		}
+// 	}
+// 	return prefix
+// }
 
 func longestCommonPrefix_great(strs []string) string {
 	p := strs[0]
@@ -453,15 +484,6 @@ func addBinary(a string, b string) string {
 		answer = "1" + answer
 	}
 	return answer
-}
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
-type LinkedList struct {
-	head *ListNode
 }
 
 func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
@@ -2566,10 +2588,6 @@ func reverseWords(s string) string {
 	return strings.Join(words, " ")
 }
 
-type NumArray struct {
-	arr []int
-}
-
 func Constructor(nums []int) NumArray {
 	prefix := make([]int, len(nums)+1)
 	for i := 0; i < len(nums); i++ {
@@ -2892,13 +2910,6 @@ func maximumSum(arr []int) int {
 	return res
 }
 
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
 func canReorderDoubled(arr []int) bool {
 
 	groups := 0
@@ -3011,10 +3022,6 @@ func numberOfEmployeesWhoMetTarget(hours []int, target int) int {
 		}
 	}
 	return result
-}
-
-type Spreadsheet struct {
-	matrix map[rune][]int
 }
 
 func NewSpreadsheet(rows int) Spreadsheet {
@@ -3322,7 +3329,776 @@ func doesAliceWin(s string) bool {
 	return false
 }
 
+func calPoints(operations []string) int {
+
+	digit_slice := []int{}
+
+	for i := 0; i < len(operations); i++ {
+
+		switch operations[i] {
+		case "+":
+			num1 := digit_slice[len(digit_slice)-1]
+			num2 := digit_slice[len(digit_slice)-2]
+			digit_slice = append(digit_slice, num1+num2)
+		case "D":
+			num := digit_slice[len(digit_slice)-1]
+			digit_slice = append(digit_slice, num*2)
+		case "C":
+			digit_slice = digit_slice[:len(digit_slice)-1]
+		default:
+			num, _ := strconv.Atoi(operations[i])
+			digit_slice = append(digit_slice, num)
+		}
+	}
+
+	count := 0
+
+	for i := 0; i < len(digit_slice); i++ {
+		count += digit_slice[i]
+	}
+
+	return count
+}
+
+func Log(base, x float64) float64 {
+	return math.Log(x) / math.Log(base)
+}
+
+func findFinalValue(nums []int, original int) int {
+
+	numsMap := make(map[int]bool)
+
+	for i := 0; i < len(nums); i++ {
+		numsMap[nums[i]] = true
+	}
+
+	for {
+		fmt.Printf("Original: %d\n", original)
+		if _, exist := numsMap[original]; exist {
+			fmt.Printf("O*2: %d\n", original*2)
+			original = original * 2
+		} else {
+			break
+		}
+	}
+	return original
+}
+
+func duplicateNumbersXOR(nums []int) int {
+
+	result := 0
+
+	freqNum := make([]bool, 51)
+	for i := range nums {
+		if !freqNum[nums[i]] {
+			freqNum[nums[i]] = true
+			continue
+		}
+
+		result = result ^ nums[i]
+	}
+
+	return result
+
+}
+
+func longestCommonPrefix(arr1 []int, arr2 []int) int {
+
+	freqPref := make(map[string]bool)
+
+	max_len := 0
+
+	for _, num := range arr2 {
+		str := strconv.Itoa(num)
+		for i := 0; i < len(str); i++ {
+			freqPref[str[:i+1]] = false
+		}
+	}
+
+	for _, num := range arr1 {
+		str := strconv.Itoa(num)
+		for i := max_len; i < len(str); i++ {
+			if _, exist := freqPref[str[:i+1]]; exist {
+				max_len = len(str[:i+1])
+			}
+		}
+	}
+
+	return max_len
+}
+
+func minimumRightShifts(nums []int) int {
+
+	pivot_count := 0
+
+	max, max_ind := nums[0], 0
+
+	if nums[0] < nums[len(nums)-1] {
+		pivot_count++
+	}
+
+	for i := 1; i < len(nums); i++ {
+
+		if nums[i] < nums[i-1] {
+			pivot_count++
+			if pivot_count == 2 {
+				return -1
+			}
+		}
+
+		if nums[i] > max {
+			max = nums[i]
+			max_ind = i
+		}
+
+	}
+
+	return len(nums) - max_ind - 1
+}
+
+func checkUgly(number int) bool {
+
+	d := []int{2, 3, 5}
+
+	for _, del := range d {
+		for number%del == 0 && number != 0 {
+			number /= del
+		}
+		if number == 1 {
+			return true
+		}
+	}
+
+	return false
+}
+
+func nthUglyNumber(n int) int {
+
+	if n == 1 {
+		return 1
+	}
+
+	uglyMap := make(map[int]int)
+	uglyMap[1] = 1
+	uglyMap[2] = 2
+	uglyMap[3] = 3
+	uglyMap[4] = 4
+	uglyMap[5] = 5
+
+	num := 2
+
+	for count := 1; count != n; num++ {
+		if checkUgly(num) {
+			count++
+		}
+	}
+
+	return num - 1
+}
+
+func countBits(n int) []int {
+	arr := make([]int, n+1)
+
+	for i := 0; i <= n; i++ {
+		arr[i] = bits.OnesCount(uint(i))
+	}
+
+	return arr
+}
+
+func fib(n int) int {
+	if n <= 1 {
+		return n
+	}
+
+	a, b := 0, 1
+
+	for i := 2; i <= n; i++ {
+		a, b = a+b, a
+	}
+
+	return a + b
+}
+
+func minCostClimbingStairs(cost []int) int {
+
+	dp := make([]int, len(cost))
+	dp[0] = cost[0]
+	dp[1] = cost[1]
+
+	for i := 2; i < len(cost); i++ {
+		if dp[i-2] < dp[i-1] {
+			dp[i] = dp[i-2] + cost[i]
+		} else {
+			dp[i] = dp[i-1] + cost[i]
+		}
+	}
+
+	if dp[len(dp)-1] <= dp[len(dp)-2] {
+		return dp[len(dp)-1]
+	} else {
+		return dp[len(dp)-2]
+	}
+}
+
+func divisorGame(n int) bool {
+	if n%2 == 0 {
+		return true
+	}
+
+	return false
+}
+
+func tribonacci(n int) int {
+	if n <= 1 {
+		return n
+	}
+
+	arr_fib := make([]int, n+1)
+	arr_fib[0] = 0
+	arr_fib[1] = 1
+	arr_fib[2] = 1
+
+	for i := 3; i <= n; i++ {
+		arr_fib[i] = arr_fib[i-1] + arr_fib[i-2] + arr_fib[i-3]
+	}
+
+	return arr_fib[n]
+}
+
+func maxRepeating(sequence string, word string) int {
+
+	if len(sequence) < len(word) {
+		return 0
+	}
+
+	if sequence == word {
+		return 1
+	}
+
+	result := 0
+
+	count := 0
+
+	end_part := 0
+
+	lenght_word := len(word)
+
+	for i := 0; i < len(sequence)-lenght_word; {
+		fmt.Printf("sequence[i : i+lenght_word]: %v    count: %d    end_part: %d    i: %d\n", sequence[i:i+lenght_word], count, end_part, i)
+		if sequence[i:i+lenght_word] == word {
+			count++
+			i += lenght_word
+		} else {
+			if count > result {
+				result = count
+				count = 0
+				i -= (lenght_word - 1)
+			} else {
+				i++
+			}
+			count = 0
+		}
+		end_part = i
+	}
+
+	if sequence[end_part:] == word {
+		count++
+	}
+
+	if count > result {
+		return count
+	}
+
+	return result
+}
+
+func getLongestSubsequence(words []string, groups []int) []string {
+
+	result := []string{words[0]}
+
+	l := 0
+
+	for i := 1; i < len(groups); i++ {
+		if groups[l] != groups[i] {
+			result = append(result, words[i])
+			l = i
+		}
+	}
+
+	return result
+}
+
+func mergeTrees(root1 *TreeNode, root2 *TreeNode) *TreeNode {
+	if root1 == nil {
+		return root2
+	}
+
+	if root2 == nil {
+		return root1
+	}
+
+	root1.Val += root2.Val
+	root1.Left = mergeTrees(root1.Left, root2.Left)
+	root1.Right = mergeTrees(root1.Right, root2.Right)
+	return root1
+}
+
+func abs(a int) int {
+	if a < 0 {
+		return -a
+	}
+	return a
+}
+
+func checkBalanced(node *TreeNode) int {
+
+	if node == nil {
+		return 0
+	}
+
+	leftNode := checkBalanced(node.Left)
+	if leftNode == -1 {
+		return -1
+	}
+
+	rightNode := checkBalanced(node.Right)
+	if rightNode == -1 {
+		return -1
+	}
+
+	if abs(rightNode-leftNode) > 1 {
+		return -1
+	}
+
+	return max(leftNode, rightNode) + 1
+}
+
+func isBalanced(root *TreeNode) bool {
+	return checkBalanced(root) != -1
+}
+
+func invertTree(root *TreeNode) *TreeNode {
+	if root == nil {
+		return root
+	}
+
+	temp := root.Left
+	root.Left = root.Right
+	root.Right = temp
+
+	invertTree(root.Left)
+	invertTree(root.Right)
+
+	return root
+}
+
+// 257. Binary Tree Paths
+
+func dfs(root *TreeNode, paths *[]string, path string) {
+
+	val := strconv.Itoa(root.Val)
+
+	if path == "" {
+		path = val
+	} else {
+		path += "->" + val
+	}
+
+	if root.Left == nil && root.Right == nil {
+		*paths = append(*paths, path)
+		return
+	}
+
+	if root.Left != nil {
+		dfs(root.Left, paths, path)
+	}
+
+	if root.Right != nil {
+		dfs(root.Right, paths, path)
+	}
+
+}
+
+func binaryTreePaths(root *TreeNode) []string {
+
+	result := []string{}
+	path := ""
+
+	dfs(root, &result, path)
+	return result
+}
+
+func sampleStats(count []int) []float64 {
+
+	result := []float64{}
+
+	min, max := math.MaxInt64, math.MinInt64
+	counts, sum := 0, 0
+	max_freq := 0
+	max_freq_num := 0
+	for i, num := range count {
+		if num == 0 {
+			continue
+		}
+		if i > max {
+			max = i
+		}
+		if i < min {
+			min = i
+		}
+		counts += num
+		sum += num * i
+		if num > max_freq {
+			max_freq = num
+			max_freq_num = i
+		}
+	}
+
+	var median float64
+	mid1, mid2 := (counts-1)/2, counts/2
+	var pos int
+	val1, val2 := -1, -1
+
+	for i, num := range count {
+		for range num {
+			if pos == mid1 && val1 == -1 {
+				val1 = i
+			}
+			if pos == mid2 {
+				val2 = i
+				break
+			}
+			pos++
+		}
+		if val2 != -1 {
+			break
+		}
+	}
+
+	median = float64(val1+val2) / 2.0
+
+	result = append(result, float64(min), float64(max), float64(sum)/float64(counts), median, float64(max_freq_num))
+
+	return result
+}
+
+func findClosestNumber(nums []int) int {
+	min, min_num := math.MaxInt64, math.MinInt64
+	for _, num := range nums {
+		temp := int(math.Abs(float64(num)))
+		if (temp < min) || (temp == min && num > min_num) {
+			min = temp
+			min_num = num
+		}
+	}
+	return min_num
+}
+
+func closestTarget(words []string, target string, startIndex int) int {
+
+	if words[startIndex] == target {
+		return 0
+	}
+
+	min_step := -1
+	min := 0
+
+	for i := 0; i < len(words); i++ {
+
+		if words[i] == target {
+			dist1 := int(math.Abs(float64(i - startIndex)))
+			dist2 := len(words) - dist1
+
+			if dist1 < dist2 {
+				min = dist1
+			} else {
+				min = dist2
+			}
+
+			if min_step > min || min_step == -1 {
+				min_step = min
+			}
+		}
+	}
+
+	return min_step
+}
+
+func wateringPlants(plants []int, capacity int) int {
+	count := 1
+	water := capacity - plants[0]
+
+	for i := 0; i < len(plants)-1; i++ {
+		if plants[i+1] > water {
+			water = capacity - plants[i+1]
+			count += i + i + 3
+		} else {
+			water -= plants[i+1]
+			count++
+		}
+	}
+
+	return count
+
+}
+
+// 2365. Task Scheduler II
+func taskSchedulerII(tasks []int, space int) int64 {
+	days := 0
+
+	tasksMap := make(map[int]int)
+
+	for _, task := range tasks {
+
+		if value, exist := tasksMap[task]; exist {
+			if days < value {
+				days = value
+			}
+		}
+
+		days++
+		tasksMap[task] = space + days
+	}
+
+	return int64(days)
+}
+
+// 2148. Count Elements With Strictly Smaller and Greater Elements
+func countElements(nums []int) int {
+	if len(nums) <= 2 {
+		return 0
+	}
+
+	sort.Ints(nums)
+	min := nums[0]
+	max := nums[len(nums)-1]
+
+	count := 0
+
+	for i := 1; i < len(nums); i++ {
+		if nums[i] != min && nums[i] != max {
+			count++
+		}
+	}
+
+	return count
+}
+
+// 345. Reverse Vowels of a String
+func reverseVowels(s string) string {
+
+	s_slice := strings.Split(s, "")
+
+	vowles := []int{}
+
+	for i := 0; i < len(s); i++ {
+		if isVowel(s[i]) {
+			vowles = append(vowles, i)
+		}
+	}
+
+	for i := 0; i < len(vowles)/2; i++ {
+		temp := s_slice[vowles[i]]
+		s_slice[vowles[i]] = s_slice[vowles[len(vowles)-1-i]]
+		s_slice[vowles[len(vowles)-1-i]] = temp
+	}
+
+	return strings.Join(s_slice, "")
+
+}
+
+func isVowel(b byte) bool {
+	return b == 'a' || b == 'e' || b == 'i' || b == 'o' || b == 'u' || b == 'A' || b == 'E' || b == 'I' || b == 'O' || b == 'U'
+}
+
+// 3131. Find the Integer Added to Array I
+func addedInteger(nums1 []int, nums2 []int) int {
+	min1 := nums1[0]
+	min2 := nums2[0]
+
+	for i := 1; i < len(nums1); i++ {
+		if nums1[i] < min1 {
+			min1 = nums1[i]
+		}
+
+		if nums2[i] < min2 {
+			min2 = nums2[i]
+		}
+	}
+
+	return min2 - min1
+
+}
+
+// 100. Same Tree
+func isSameTree(p *TreeNode, q *TreeNode) bool {
+
+	if p == nil && q == nil {
+		return true
+	}
+
+	if p == nil || q == nil {
+		return false
+	}
+
+	if p.Val != q.Val {
+		return false
+	}
+
+	return isSameTree(p.Left, q.Left) && isSameTree(p.Right, q.Right)
+
+}
+
+// 101. Symmetric Tree
+func isSymmetric(root *TreeNode) bool {
+
+	if root == nil {
+		return true
+	}
+
+	return isMirror(root.Left, root.Right)
+}
+
+func isMirror(left *TreeNode, right *TreeNode) bool {
+	if left == nil && right == nil {
+		return true
+	}
+
+	if left == nil || right == nil {
+		return false
+	}
+
+	if left.Val != right.Val {
+		return false
+	}
+
+	return isMirror(left.Left, right.Right) && isMirror(left.Right, right.Left)
+}
+
+// 563. Binary Tree Tilt
+func findTilt(root *TreeNode) int {
+	total := 0
+
+	var dfs func(root *TreeNode) int
+	dfs = func(root *TreeNode) int {
+
+		if root == nil {
+			return 0
+		}
+
+		l, r := dfs(root.Left), dfs(root.Right)
+
+		total += int(math.Abs(float64(l - r)))
+
+		return root.Val + l + r
+	}
+
+	dfs(root)
+
+	return total
+}
+
+// 965. Univalued Binary Tree
+func isUnivalTree(root *TreeNode) bool {
+	val := root.Val
+
+	var dfs func(root *TreeNode) bool
+	dfs = func(root *TreeNode) bool {
+		if root == nil {
+			return true
+		}
+
+		if root.Val != val {
+			return false
+		}
+
+		return dfs(root.Left) && dfs(root.Right)
+	}
+	return dfs(root)
+}
+
+// 94. Binary Tree Inorder Traversal
+func inorderTraversal(root *TreeNode) []int {
+
+	if root == nil {
+		return []int{}
+	}
+
+	result := []int{}
+
+	var traver func(root *TreeNode)
+	traver = func(root *TreeNode) {
+
+		if root.Left != nil {
+			traver(root.Left)
+		}
+
+		result = append(result, root.Val)
+		if root.Right != nil {
+			traver(root.Right)
+		}
+
+	}
+
+	traver(root)
+
+	return result
+}
+
+// 144. Binary Tree Preorder Traversal
+func preorderTraversal(root *TreeNode) []int {
+	if root == nil {
+		return []int{}
+	}
+
+	result := []int{}
+	var traver func(root *TreeNode)
+	traver = func(root *TreeNode) {
+		result = append(result, root.Val)
+
+		if root.Left != nil {
+			traver(root.Left)
+		}
+
+		if root.Right != nil {
+			traver(root.Right)
+		}
+	}
+
+	traver(root)
+
+	return result
+}
+
+// 654. Maximum Binary Tree
+func constructMaximumBinaryTree(nums []int) *TreeNode {
+
+	if len(nums) == 0 {
+		return nil
+	}
+
+	max, ind := -1, 0
+
+	for i, num := range nums {
+		if num > max {
+			max, ind = num, i
+		}
+	}
+
+	root := &TreeNode{Val: max}
+
+	if len(nums[:ind]) > 0 {
+		root.Left = constructMaximumBinaryTree(nums[:ind])
+	}
+
+	if len(nums[ind+1:]) > 0 {
+		root.Right = constructMaximumBinaryTree(nums[ind+1:])
+	}
+
+	return root
+}
+
 func main() {
-	a := [][]int{{1, 2}, {2, 3}}
-	fmt.Println(findJudge(3, a))
+
 }
