@@ -1,7 +1,8 @@
 func countPairs(deliciousness []int) int {
     const mod = 1_000_000_007
-    freq := make(map[int64]int)
     count := 0
+
+    freqMap := make(map[int64]int)
 
     maxVal := int64(0)
     for _, v := range deliciousness {
@@ -16,18 +17,18 @@ func countPairs(deliciousness []int) int {
         powers = append(powers, p)
     }
 
-    for _, xv := range deliciousness {
-        x := int64(xv)
+    for _, x := range deliciousness {
         for _, target := range powers {
-            y := target - x
-            if c, ok := freq[y]; ok {
-                count += c
+            y := target - int64(x)
+            if val, exist := freqMap[y]; exist {
+                count += val
                 if count >= mod {
                     count -= mod
                 }
             }
         }
-        freq[x]++
+        freqMap[int64(x)]++
     }
+
     return count
 }
