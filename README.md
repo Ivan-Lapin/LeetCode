@@ -528,6 +528,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Ivan-Lapin/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
+| [1830-count-good-meals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1830-count-good-meals) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/Ivan-Lapin/LeetCode/tree/master/2283-sort-even-and-odd-indices-independently) |
 ## String
@@ -542,6 +543,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Hash Table
 |  |
 | ------- |
+| [1830-count-good-meals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1830-count-good-meals) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
 ## Counting
 |  |
