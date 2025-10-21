@@ -17,9 +17,6 @@ func sortEvenOdd(nums []int) []int {
         return odd[i] > odd[j]
     })
 
-    fmt.Println(even)
-    fmt.Println(odd)
-
     for i, step := 0, 0; i < len(odd) && i < len(even); i++{
         result[i+step] = even[i]
         step++
