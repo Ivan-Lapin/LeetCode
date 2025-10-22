@@ -531,6 +531,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [1830-count-good-meals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1830-count-good-meals) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/Ivan-Lapin/LeetCode/tree/master/2283-sort-even-and-odd-indices-independently) |
+| [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 ## String
 |  |
 | ------- |
@@ -549,4 +550,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
+## Math
+|  |
+| ------- |
+| [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 <!---LeetCode Topics End-->
