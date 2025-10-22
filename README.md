@@ -528,6 +528,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Ivan-Lapin/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Ivan-Lapin/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1830-count-good-meals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1830-count-good-meals) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
@@ -567,4 +568,12 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Ivan-Lapin/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+## Sliding Window
+|  |
+| ------- |
+| [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Ivan-Lapin/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 <!---LeetCode Topics End-->
