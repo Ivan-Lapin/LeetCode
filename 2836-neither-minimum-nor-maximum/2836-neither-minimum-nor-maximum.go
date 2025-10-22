@@ -5,18 +5,17 @@ func findNonMinOrMax(nums []int) int {
 
     for i := 1; i < len(nums); i++{
         if nums[i] > maxNum {
-            result = maxNum
             maxNum = nums[i]
-        } else if nums[i] < minNum {
-            result = minNum
+        } 
+        if nums[i] < minNum {
             minNum = nums[i]
-        } else {
-            result = nums[i]
-        }
+        } 
     }
 
-    if result == minNum || result == maxNum {
-        return -1
+    for _, num := range nums {
+        if (num != maxNum) && (num != minNum) {
+            result = num
+        } 
     }
 
     return result
