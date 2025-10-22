@@ -558,6 +558,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
+| [2630-alternating-digit-sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/2630-alternating-digit-sum) |
 ## Two Pointers
 |  |
 | ------- |
