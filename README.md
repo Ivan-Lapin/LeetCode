@@ -560,6 +560,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | ------- |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 | [2630-alternating-digit-sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/2630-alternating-digit-sum) |
+| [3511-find-the-winning-player-in-coin-game](https://github.com/Ivan-Lapin/LeetCode/tree/master/3511-find-the-winning-player-in-coin-game) |
 ## Two Pointers
 |  |
 | ------- |
@@ -592,4 +593,12 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+## Simulation
+|  |
+| ------- |
+| [3511-find-the-winning-player-in-coin-game](https://github.com/Ivan-Lapin/LeetCode/tree/master/3511-find-the-winning-player-in-coin-game) |
+## Game Theory
+|  |
+| ------- |
+| [3511-find-the-winning-player-in-coin-game](https://github.com/Ivan-Lapin/LeetCode/tree/master/3511-find-the-winning-player-in-coin-game) |
 <!---LeetCode Topics End-->
