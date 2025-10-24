@@ -533,6 +533,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [1830-count-good-meals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1830-count-good-meals) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/Ivan-Lapin/LeetCode/tree/master/2283-sort-even-and-odd-indices-independently) |
+| [2478-longest-nice-subarray](https://github.com/Ivan-Lapin/LeetCode/tree/master/2478-longest-nice-subarray) |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 | [2836-neither-minimum-nor-maximum](https://github.com/Ivan-Lapin/LeetCode/tree/master/2836-neither-minimum-nor-maximum) |
 ## String
@@ -577,6 +578,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Ivan-Lapin/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [2478-longest-nice-subarray](https://github.com/Ivan-Lapin/LeetCode/tree/master/2478-longest-nice-subarray) |
 ## Tree
 |  |
 | ------- |
@@ -601,4 +603,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [3511-find-the-winning-player-in-coin-game](https://github.com/Ivan-Lapin/LeetCode/tree/master/3511-find-the-winning-player-in-coin-game) |
+## Bit Manipulation
+|  |
+| ------- |
+| [2478-longest-nice-subarray](https://github.com/Ivan-Lapin/LeetCode/tree/master/2478-longest-nice-subarray) |
 <!---LeetCode Topics End-->
