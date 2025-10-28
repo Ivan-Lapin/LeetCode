@@ -15,14 +15,13 @@ func convertToBase7(num int) string {
     div := num
     for ; div != 0; div--{
         if 7 * div <= num {
-            temp := strconv.Itoa(num%7)
-            result = temp + result
+            result = fmt.Sprint(num%7) + result
             num = div
         }
     }
 
     if num != 0 {
-        result = strconv.Itoa(num) + result
+        result = fmt.Sprint(num) + result
     }
 
     return first_part + result
