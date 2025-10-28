@@ -542,6 +542,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [2722-prime-in-diagonal](https://github.com/Ivan-Lapin/LeetCode/tree/master/2722-prime-in-diagonal) |
 | [2836-neither-minimum-nor-maximum](https://github.com/Ivan-Lapin/LeetCode/tree/master/2836-neither-minimum-nor-maximum) |
 | [3320-maximum-number-of-operations-with-the-same-score-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/3320-maximum-number-of-operations-with-the-same-score-i) |
+| [3799-unique-3-digit-even-numbers](https://github.com/Ivan-Lapin/LeetCode/tree/master/3799-unique-3-digit-even-numbers) |
 ## String
 |  |
 | ------- |
@@ -561,6 +562,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | ------- |
 | [1830-count-good-meals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1830-count-good-meals) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
+| [3799-unique-3-digit-even-numbers](https://github.com/Ivan-Lapin/LeetCode/tree/master/3799-unique-3-digit-even-numbers) |
 ## Counting
 |  |
 | ------- |
@@ -640,4 +642,12 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [1127-last-stone-weight](https://github.com/Ivan-Lapin/LeetCode/tree/master/1127-last-stone-weight) |
+## Recursion
+|  |
+| ------- |
+| [3799-unique-3-digit-even-numbers](https://github.com/Ivan-Lapin/LeetCode/tree/master/3799-unique-3-digit-even-numbers) |
+## Enumeration
+|  |
+| ------- |
+| [3799-unique-3-digit-even-numbers](https://github.com/Ivan-Lapin/LeetCode/tree/master/3799-unique-3-digit-even-numbers) |
 <!---LeetCode Topics End-->
