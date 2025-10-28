@@ -543,6 +543,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## String
 |  |
 | ------- |
+| [0504-base-7](https://github.com/Ivan-Lapin/LeetCode/tree/master/0504-base-7) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Ivan-Lapin/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
@@ -565,6 +566,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Math
 |  |
 | ------- |
+| [0504-base-7](https://github.com/Ivan-Lapin/LeetCode/tree/master/0504-base-7) |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 | [2630-alternating-digit-sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/2630-alternating-digit-sum) |
 | [2722-prime-in-diagonal](https://github.com/Ivan-Lapin/LeetCode/tree/master/2722-prime-in-diagonal) |
