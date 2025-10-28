@@ -541,6 +541,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 | [2722-prime-in-diagonal](https://github.com/Ivan-Lapin/LeetCode/tree/master/2722-prime-in-diagonal) |
 | [2836-neither-minimum-nor-maximum](https://github.com/Ivan-Lapin/LeetCode/tree/master/2836-neither-minimum-nor-maximum) |
+| [3320-maximum-number-of-operations-with-the-same-score-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/3320-maximum-number-of-operations-with-the-same-score-i) |
 ## String
 |  |
 | ------- |
@@ -613,6 +614,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Simulation
 |  |
 | ------- |
+| [3320-maximum-number-of-operations-with-the-same-score-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/3320-maximum-number-of-operations-with-the-same-score-i) |
 | [3511-find-the-winning-player-in-coin-game](https://github.com/Ivan-Lapin/LeetCode/tree/master/3511-find-the-winning-player-in-coin-game) |
 ## Game Theory
 |  |
