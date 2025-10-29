@@ -550,6 +550,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Ivan-Lapin/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/Ivan-Lapin/LeetCode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2887-sort-vowels-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/2887-sort-vowels-in-a-string) |
 ## Sorting
 |  |
@@ -618,6 +619,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Simulation
 |  |
 | ------- |
+| [2260-divide-a-string-into-groups-of-size-k](https://github.com/Ivan-Lapin/LeetCode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [3320-maximum-number-of-operations-with-the-same-score-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/3320-maximum-number-of-operations-with-the-same-score-i) |
 | [3511-find-the-winning-player-in-coin-game](https://github.com/Ivan-Lapin/LeetCode/tree/master/3511-find-the-winning-player-in-coin-game) |
 ## Game Theory
