@@ -1,22 +1,27 @@
 func compressedString(word string) string {
 
 	var comp strings.Builder
-	count := 1
+	comp.Grow(len(word) * 2)
+
+	count := byte(1)
 	symbol := word[0]
 
 	for i := 1; i < len(word); i++ {
 
 		if word[i] != symbol || count >= 9 {
 
-			comp.WriteString(fmt.Sprint(count, string(symbol)))
+			comp.WriteByte('0' + count)
+			comp.WriteByte(symbol)
+
 			symbol = word[i]
-			count = 1
+			count = byte(1)
 
 		} else {
 			count++
 		}
 	}
-	comp.WriteString(fmt.Sprint(count, string(symbol)))
+	comp.WriteByte('0' + count)
+	comp.WriteByte(symbol)
 
 	return comp.String()
 }
