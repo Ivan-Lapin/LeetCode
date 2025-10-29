@@ -581,6 +581,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Two Pointers
 |  |
 | ------- |
+| [0908-middle-of-the-linked-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
 ## Greedy
 |  |
@@ -654,4 +655,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [3799-unique-3-digit-even-numbers](https://github.com/Ivan-Lapin/LeetCode/tree/master/3799-unique-3-digit-even-numbers) |
+## Linked List
+|  |
+| ------- |
+| [0908-middle-of-the-linked-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
