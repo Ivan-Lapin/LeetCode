@@ -552,6 +552,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Ivan-Lapin/LeetCode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2887-sort-vowels-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/2887-sort-vowels-in-a-string) |
+| [3451-string-compression-iii](https://github.com/Ivan-Lapin/LeetCode/tree/master/3451-string-compression-iii) |
 ## Sorting
 |  |
 | ------- |
