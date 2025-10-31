@@ -1,5 +1,9 @@
 func maxNumberOfBalloons(text string) int {
 
+    if len(text) < 7 {
+		return 0
+	}
+
     freqChar := make(map[rune]int)
     count := 0
 
