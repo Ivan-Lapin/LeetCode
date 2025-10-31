@@ -527,6 +527,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Array
 |  |
 | ------- |
+| [0376-wiggle-subsequence](https://github.com/Ivan-Lapin/LeetCode/tree/master/0376-wiggle-subsequence) |
 | [0413-arithmetic-slices](https://github.com/Ivan-Lapin/LeetCode/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
@@ -593,11 +594,13 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Greedy
 |  |
 | ------- |
+| [0376-wiggle-subsequence](https://github.com/Ivan-Lapin/LeetCode/tree/master/0376-wiggle-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
 ## Dynamic Programming
 |  |
 | ------- |
+| [0376-wiggle-subsequence](https://github.com/Ivan-Lapin/LeetCode/tree/master/0376-wiggle-subsequence) |
 | [0413-arithmetic-slices](https://github.com/Ivan-Lapin/LeetCode/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Ivan-Lapin/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
