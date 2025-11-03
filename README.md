@@ -524,6 +524,8 @@ The following table lists the implemented LeetCode problems, including their pro
 | 376 | [Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/description/) | Track two values while scanning: up = length ending with positive diff, down = length ending with negative diff; if nums[i] > nums[i−1] then up = down + 1, if nums[i] < nums[i−1] then down = up + 1. Answer is max(up, down), in $$O(n)$$ time and $$O(1)$$ space. | Medium |
 | 1268 | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/) | Given sorted product list, build a Trie storing up to 3 lexicographically smallest product indices per prefix. For each character typed in searchWord, traverse Trie to efficiently output up to 3 suggested products with that prefix. $$O(m \log m + n \times l)$$ time where m = #products, n = length(searchWord), l = average product length. | Medium |
 
+## Fantstic
+
 ## Usage
 
 To use these solutions:

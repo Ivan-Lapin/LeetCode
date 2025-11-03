@@ -5063,6 +5063,10 @@ func SortInsert(words []string, str string) []string {
 	return new_words
 }
 
+func ForCommit() {
+	fmt.Println("This func for Commit")
+}
+
 func main() {
 
 }
