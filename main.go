@@ -1,9 +1,11 @@
 package main
 
 import (
+	"container/heap"
 	"fmt"
 	"log"
 	"math"
+	"math/big"
 	"math/bits"
 	"regexp"
 	"slices"
@@ -3795,6 +3797,7 @@ func findClosestNumber(nums []int) int {
 	return min_num
 }
 
+// 2515. Shortest Distance to Target String in a Circular Array
 func closestTarget(words []string, target string, startIndex int) int {
 
 	if words[startIndex] == target {
@@ -3825,6 +3828,7 @@ func closestTarget(words []string, target string, startIndex int) int {
 	return min_step
 }
 
+// 2079. Watering Plants
 func wateringPlants(plants []int, capacity int) int {
 	count := 1
 	water := capacity - plants[0]
@@ -4097,6 +4101,966 @@ func constructMaximumBinaryTree(nums []int) *TreeNode {
 	}
 
 	return root
+}
+
+// 2220. Minimum Bit Flips to Convert Number
+func minBitFlips(start int, goal int) int {
+
+	changes := 0
+
+	bits := start ^ goal
+
+	bits_str := strconv.FormatInt(int64(bits), 2)
+
+	for i := 0; i < len(bits_str); i++ {
+
+		if (bits_str[i] - 48) == byte(1) {
+			changes++
+		}
+	}
+
+	return changes
+
+}
+
+// 870. Advantage Shuffle
+func advantageCount(nums1 []int, nums2 []int) []int {
+
+	n := len(nums1)
+
+	type pair struct {
+		val int
+		idx int
+	}
+
+	sort.Ints(nums1)
+	pairNums2 := make([]pair, n)
+
+	for i, num := range nums2 {
+		pairNums2[i].val = num
+		pairNums2[i].idx = i
+	}
+
+	sort.Slice(pairNums2, func(i, j int) bool {
+		return pairNums2[i].val < pairNums2[j].val
+	})
+
+	result := make([]int, len(nums1))
+
+	for i, l, r := 0, 0, n-1; l <= r; i++ {
+
+		if nums1[i] > pairNums2[l].val {
+
+			result[pairNums2[l].idx] = nums1[i]
+			l++
+		} else {
+
+			result[pairNums2[r].idx] = nums1[i]
+			r--
+		}
+	}
+
+	return result
+}
+
+// 1920. Build Array from Permutation
+func buildArray(nums []int) []int {
+	ans := make([]int, len(nums))
+
+	for i := range nums {
+		ans[i] = nums[nums[i]]
+	}
+
+	return ans
+}
+
+// 2451. Odd String Difference
+func oddString(words []string) string {
+
+	type pair struct {
+		word  string
+		count int
+	}
+
+	diffMap := make(map[string]pair)
+
+	for i, word := range words {
+		str := ""
+		for i := 1; i < len(word); i++ {
+			temp := int(word[i]) - int(word[i-1])
+			str += strconv.Itoa(temp) + "/"
+		}
+		c := diffMap[str].count + 1
+		diffMap[str] = pair{word: word, count: c}
+
+		if i >= 2 && len(diffMap) > 1 {
+			for _, val := range diffMap {
+				if val.count == 1 {
+					return val.word
+				}
+			}
+		}
+	}
+
+	return ""
+}
+
+// 520. Detect Capital
+func detectCapitalUse(word string) bool {
+
+	countUp := 0
+
+	for i := 0; i < len(word); i++ {
+		if word[i] < 97 && word[i] >= 65 {
+			countUp++
+		}
+	}
+
+	if (countUp == 1 && word[0] >= 97) || (countUp > 1 && countUp != len(word)) {
+		return false
+	}
+
+	return true
+}
+
+// 2085. Count Common Words With One Occurrence
+func countWords(words1 []string, words2 []string) int {
+
+	freqWord1Map := make(map[string]int)
+	freqWord2Map := make(map[string]int)
+
+	count := 0
+
+	for _, word := range words1 {
+		freqWord1Map[word]++
+	}
+
+	for _, word := range words2 {
+		freqWord2Map[word]++
+	}
+
+	for key, val := range freqWord1Map {
+		if freqWord2Map[key] == 1 && val == 1 {
+			count++
+		}
+	}
+
+	return count
+}
+
+// 1711. Count Good Meals
+func countPairsMedium(deliciousness []int) int {
+	const mod = 1_000_000_007
+	count := 0
+
+	freqMap := make(map[int64]int)
+
+	maxVal := int64(0)
+	for _, v := range deliciousness {
+		if int64(v) > maxVal {
+			maxVal = int64(v)
+		}
+	}
+	maxSum := maxVal * 2
+
+	powers := []int64{1}
+	for p := int64(2); p <= maxSum; p <<= 1 {
+		powers = append(powers, p)
+	}
+
+	for _, x := range deliciousness {
+		for _, target := range powers {
+			y := target - int64(x)
+			if val, exist := freqMap[y]; exist {
+				count += val
+				if count >= mod {
+					count -= mod
+				}
+			}
+		}
+		freqMap[int64(x)]++
+	}
+
+	return count
+}
+
+// 2535. Difference Between Element Sum and Digit Sum of an Array
+func differenceOfSum(nums []int) int {
+	el_sum := 0
+	digit_sum := 0
+
+	for _, num := range nums {
+		el_sum += num
+		if num <= 9 {
+			digit_sum += num
+		} else {
+			for num > 0 {
+				s := num % 10
+				num /= 10
+				digit_sum += s
+			}
+		}
+	}
+
+	return int(math.Abs(float64(el_sum - digit_sum)))
+}
+
+// 2733. Neither Minimum nor Maximum
+func findNonMinOrMax(nums []int) int {
+	minNum := nums[0]
+	maxNum := nums[0]
+	result := -1
+
+	for i := 1; i < len(nums); i++ {
+		if nums[i] > maxNum {
+			result = maxNum
+			maxNum = nums[i]
+		} else if nums[i] < minNum {
+			result = minNum
+			minNum = nums[i]
+		} else {
+			result = nums[i]
+		}
+	}
+
+	if result == minNum || result == maxNum {
+		return -1
+	}
+
+	return result
+}
+
+// 881. Boats to Save People
+func numRescueBoats(people []int, limit int) int {
+
+	sort.Ints(people)
+
+	count := 0
+
+	for l, r := 0, len(people)-1; l <= r; {
+
+		if l != r {
+
+			if people[l]+people[r] <= limit {
+				l++
+			}
+			r--
+			count++
+
+		} else {
+
+			count++
+			break
+
+		}
+	}
+
+	return count
+}
+
+// 2544. Alternating Digit Sum
+func alternateDigitSum(n int) int {
+
+	result := 0
+
+	number := strconv.Itoa(n)
+
+	for i := 0; i < len(number); i++ {
+		if i%2 == 0 {
+			result += int(number[i] - '0')
+		} else {
+			result -= int(number[i] - '0')
+		}
+	}
+
+	return result
+}
+
+// 1493. Longest Subarray of 1's After Deleting One Element
+func longestSubarray(nums []int) int {
+
+	maxLen := 0
+	lenght := 0
+	left := 0
+	sum := 0
+
+	flag := false
+
+	for i, num := range nums {
+		if num == 0 {
+			if flag {
+				if lenght > maxLen {
+					maxLen = lenght
+				}
+				lenght = len(nums[left:i]) - 1
+
+			} else {
+				flag = true
+			}
+			left = i
+		} else {
+			lenght++
+			sum++
+		}
+	}
+
+	if sum == len(nums) {
+		return sum - 1
+	}
+
+	if lenght > maxLen {
+		return lenght
+	}
+
+	return maxLen
+}
+
+// 637. Average of Levels in Binary Tree
+func averageOfLevels(root *TreeNode) []float64 {
+
+	if root == nil {
+		return nil
+	}
+
+	result := []float64{}
+
+	trees := []*TreeNode{root}
+
+	for len(trees) > 0 {
+
+		levelCount := len(trees)
+		var sum float64
+
+		for i := 0; i < levelCount; i++ {
+
+			node := trees[0]
+			trees = trees[1:]
+			sum += float64(node.Val)
+
+			if node.Left != nil {
+				trees = append(trees, node.Left)
+			}
+			if node.Right != nil {
+				trees = append(trees, node.Right)
+			}
+
+		}
+		result = append(result, sum/float64(levelCount))
+	}
+
+	return result
+}
+
+// 3222. Find the Winning Player in Coin Game
+func winningPlayer(x int, y int) string {
+
+	try := 1
+
+	for x >= 1 && y >= 4 {
+		x--
+		y -= 4
+		try++
+	}
+
+	if try%2 == 0 {
+		return "Alice"
+	}
+
+	return "Bob"
+
+}
+
+// 2401. Longest Nice Subarray
+func longestNiceSubarray(nums []int) int {
+
+	maxLen := 1
+	lenght := 1
+	mask := nums[0]
+
+	for left, right := 0, 1; right < len(nums); right++ {
+
+		for mask&nums[right] != 0 {
+			mask ^= nums[left]
+			left++
+		}
+
+		mask |= nums[right]
+		lenght = right - left + 1
+
+		if maxLen < lenght {
+			maxLen = lenght
+		}
+
+	}
+
+	return maxLen
+}
+
+// 1672. Richest Customer Wealth
+func maximumWealth(accounts [][]int) int {
+
+	maxSum := 0
+
+	for _, client := range accounts {
+
+		sum := 0
+		for _, bank := range client {
+			sum += bank
+		}
+
+		if sum > maxSum {
+			maxSum = sum
+		}
+	}
+
+	return maxSum
+}
+
+// 2614. Prime In Diagonal
+func diagonalPrime(nums [][]int) int {
+	maxVal := 0
+	for i := 0; i < len(nums); i++ {
+		temp := nums[i][i]
+		if temp > maxVal && big.NewInt(int64(temp)).ProbablyPrime(0) {
+			maxVal = nums[i][i]
+		}
+
+		temp = nums[i][len(nums[i])-i-1]
+		if temp > maxVal && big.NewInt(int64(temp)).ProbablyPrime(0) {
+			maxVal = nums[i][len(nums[i])-i-1]
+		}
+	}
+
+	return maxVal
+}
+
+// 1047. Remove All Adjacent Duplicates In String
+func removeDuplicates_1047(s string) string {
+
+	stack := make([]byte, 0, len(s))
+
+	for i := 0; i < len(s); i++ {
+		if len(stack) != 0 && stack[len(stack)-1] == s[i] {
+			stack = stack[:len(stack)-1]
+		} else {
+			stack = append(stack, s[i])
+		}
+	}
+
+	return string(stack)
+}
+
+// 413. Arithmetic Slices
+func numberOfArithmeticSlices(nums []int) int {
+
+	if len(nums) < 3 {
+		return 0
+	}
+
+	count := 0
+	left := 0
+	val := nums[1] - nums[0]
+
+	for l, r := 1, 2; r < len(nums) && r > l; {
+
+		if nums[r]-nums[l] != val || r == len(nums)-1 {
+
+			k := 0
+			if nums[r]-nums[l] != val {
+				k = r - left
+			} else {
+				k = r - left + 1
+			}
+
+			if k >= 3 {
+				count += (k - 1) * (k - 2) / 2
+			}
+
+			val = nums[r] - nums[l]
+			left = l
+		}
+
+		if r != len(nums)-1 {
+			r++
+		}
+		l++
+
+	}
+
+	return count
+}
+
+// ////////////--------------//////////////
+type MaxHeap []int
+
+func (h MaxHeap) Len() int               { return len(h) }
+func (h MaxHeap) Less(i int, j int) bool { return h[i] > h[j] }
+func (h MaxHeap) Swap(i int, j int)      { h[i], h[j] = h[j], h[i] }
+func (h *MaxHeap) Push(x any)            { *h = append(*h, x.(int)) }
+func (h *MaxHeap) Pop() any {
+	old := *h
+	n := len(*h)
+	x := old[n-1]
+	*h = old[:n-1]
+	return x
+}
+
+// 1046. Last Stone Weight
+func lastStoneWeight(stones []int) int {
+	h := MaxHeap(stones)
+	heap.Init(&h)
+
+	for h.Len() > 1 {
+		y := heap.Pop(&h).(int)
+		x := heap.Pop(&h).(int)
+		if y != x {
+			heap.Push(&h, (y - x))
+		}
+	}
+
+	if h.Len() == 0 {
+		return 0
+	}
+
+	return heap.Pop(&h).(int)
+
+}
+
+//////////////--------------//////////////
+
+// 3115. Maximum Prime Difference
+func maximumPrimeDifference(nums []int) int {
+	index := []int{}
+
+	for i, num := range nums {
+		if big.NewInt(int64(num)).ProbablyPrime(0) {
+			index = append(index, i)
+		}
+	}
+
+	return index[len(index)-1] - index[0]
+}
+
+// 435. Non-overlapping Intervals
+func eraseOverlapIntervals(intervals [][]int) int {
+
+	if len(intervals) == 1 {
+		return 0
+	}
+
+	sort.Slice(intervals, func(i, j int) bool {
+		return intervals[i][1] < intervals[j][1]
+	})
+
+	lastEnd := intervals[0][1]
+	counts := 1
+
+	for i := 1; i < len(intervals); i++ {
+		if intervals[i][0] >= lastEnd {
+			lastEnd = intervals[i][1]
+			counts++
+		}
+	}
+
+	return len(intervals) - counts
+
+}
+
+// 504. Base 7
+func convertToBase7(num int) string {
+
+	if num == 0 {
+		return "0"
+	}
+
+	result := ""
+	first_part := ""
+
+	if num < 0 {
+		num = -num
+		first_part = "-"
+	}
+
+	div := num
+	for ; div != 0; div-- {
+		if 7*div <= num {
+			result = fmt.Sprint(num%7) + result
+			num = div
+		}
+	}
+
+	if num != 0 {
+		result = fmt.Sprint(num) + result
+	}
+
+	return first_part + result
+
+}
+
+// 1052. Grumpy Bookstore Owner
+func maxSatisfied(customers []int, grumpy []int, minutes int) int {
+	realy := 0
+	pozitive := 0
+	not_grumpy := 0
+
+	for i := 0; i < minutes; i++ {
+		if grumpy[i] == 0 {
+			realy += customers[i]
+			not_grumpy += customers[i]
+		}
+		pozitive += customers[i]
+	}
+
+	if minutes == len(customers) {
+		return pozitive
+	}
+
+	maxPozitive := pozitive - realy
+
+	for i := minutes; i < len(customers); i++ {
+
+		if grumpy[i-minutes] == 0 {
+			realy -= customers[i-minutes]
+		}
+		pozitive -= customers[i-minutes]
+
+		if grumpy[i] == 0 {
+			realy += customers[i]
+			not_grumpy += customers[i]
+		}
+		pozitive += customers[i]
+
+		if maxPozitive < pozitive-realy {
+			maxPozitive = pozitive - realy
+		}
+	}
+
+	return not_grumpy + maxPozitive
+}
+
+// 3038. Maximum Number of Operations With the Same Score I
+func maxOperations(nums []int) int {
+
+	count := 1
+	sum := nums[0] + nums[1]
+
+	for i := 2; i < len(nums)-1; i += 2 {
+		if nums[i]+nums[i+1] == sum {
+			count++
+		} else {
+			break
+		}
+	}
+
+	return count
+}
+
+// 3483. Unique 3-Digit Even Numbers
+func totalNumbers(digits []int) int {
+
+	freqNum := make([]int, 10)
+	count := 0
+
+	for _, digit := range digits {
+		freqNum[digit]++
+	}
+
+	for x := 100; x <= 999; x++ {
+
+		a := x / 100
+		b := (x / 10) % 10
+		c := (x % 100) % 10
+
+		if freqNum[a] != 0 {
+			freqNum[a]--
+
+			if freqNum[b] != 0 {
+				freqNum[b]--
+
+				if c%2 == 0 && freqNum[c] != 0 {
+					count++
+				}
+
+				freqNum[b]++
+			}
+
+			freqNum[a]++
+		}
+	}
+
+	return count
+}
+
+// 2785. Sort Vowels in a String
+func sortVowels(s string) string {
+	vowelsMap := map[byte]bool{
+		'A': true, 'E': true, 'I': true, 'O': true, 'U': true,
+		'a': true, 'e': true, 'i': true, 'o': true, 'u': true,
+	}
+
+	vowels := make([]byte, 0, len(s))
+	for i := 0; i < len(s); i++ {
+		if vowelsMap[s[i]] {
+			vowels = append(vowels, s[i])
+		}
+	}
+
+	slices.Sort(vowels)
+
+	var b strings.Builder
+	b.Grow(len(s))
+	for i, j := 0, 0; i < len(s); i++ {
+		if vowelsMap[s[i]] {
+			b.WriteByte(vowels[j])
+			j++
+		} else {
+			b.WriteByte(s[i])
+		}
+	}
+	return b.String()
+}
+
+// 2138. Divide a String Into Groups of Size k
+func divideString(s string, k int, fill byte) []string {
+	result := make([]string, (len(s)/k)+1)
+	index := 0
+	for i := 0; i < len(s); i += k {
+		if i+k > len(s) {
+			result[index] = s[i:]
+			for j := k - len(result[index]); j > 0; j-- {
+				result[index] += string(fill)
+			}
+		} else {
+			result[index] = s[i : i+k]
+		}
+		index++
+	}
+	if len(result[len(result)-1]) == 0 {
+		return result[:len(result)-1]
+	}
+	return result
+
+}
+
+// ////----------------///////
+// 876. Middle of the Linked List
+func middleNode(head *ListNode) *ListNode {
+	slice := []*ListNode{head}
+	return findMiddel(head.Next, slice)
+}
+
+func findMiddel(head *ListNode, slice []*ListNode) *ListNode {
+	if head == nil {
+		return slice[len(slice)/2]
+	}
+	slice = append(slice, head)
+	return findMiddel(head.Next, slice)
+}
+
+//////----------------///////
+
+// 3163. String Compression III
+func compressedString(word string) string {
+
+	var comp strings.Builder
+	comp.Grow(len(word) * 2)
+
+	count := byte(1)
+	symbol := word[0]
+
+	for i := 1; i < len(word); i++ {
+
+		if word[i] != symbol || count >= 9 {
+
+			comp.WriteByte('0' + count)
+			comp.WriteByte(symbol)
+
+			symbol = word[i]
+			count = byte(1)
+
+		} else {
+			count++
+		}
+	}
+	comp.WriteByte('0' + count)
+	comp.WriteByte(symbol)
+
+	return comp.String()
+}
+
+// 1004. Max Consecutive Ones III
+func longestOnes(nums []int, k int) int {
+
+	flips := 0
+	count := 0
+	maxCount := 0
+	nulls_index := []int{}
+	null_index := 0
+
+	for l, r := 0, 0; r < len(nums); r++ {
+
+		if nums[r] == 0 {
+
+			nulls_index = append(nulls_index, r)
+			flips++
+
+			if flips > k {
+
+				if count > maxCount {
+					maxCount = count
+				}
+
+				count -= len(nums[l : nulls_index[null_index]+1])
+				l = nulls_index[null_index] + 1
+				flips--
+				null_index++
+
+			}
+		}
+		count++
+	}
+
+	if count > maxCount {
+		return count
+	}
+
+	return maxCount
+}
+
+// 2460. Apply Operations to an Array
+func applyOperations(nums []int) []int {
+
+	result := make([]int, len(nums))
+	index := 0
+
+	for i := 0; i < len(nums)-1; i++ {
+		if nums[i] != 0 {
+			if nums[i] == nums[i+1] {
+				result[index] = nums[i] * 2
+				nums[i+1] = 0
+			} else {
+				result[index] = nums[i]
+			}
+			index++
+		}
+	}
+
+	if nums[len(nums)-1] != 0 {
+		result[index] = nums[len(nums)-1]
+	}
+
+	return result
+}
+
+// 1189. Maximum Number of Balloons
+func maxNumberOfBalloons(text string) int {
+
+	if len(text) < 7 {
+		return 0
+	}
+
+	freqChar := make(map[rune]int)
+	count := 0
+
+	for i := 0; i < len(text); i++ {
+		freqChar[rune(text[i])]++
+	}
+
+	var def func(mapa map[rune]int) bool
+
+	def = func(mapa map[rune]int) bool {
+		for _, ch := range []rune{'b', 'a', 'l', 'l', 'o', 'o', 'n'} {
+			if val, exist := mapa[ch]; exist && val == 0 || !exist {
+				return false
+			} else {
+				mapa[ch]--
+			}
+		}
+		return true
+	}
+
+	for def(freqChar) {
+		count++
+	}
+
+	return count
+}
+
+// 376. Wiggle Subsequence
+func wiggleMaxLength(nums []int) int {
+
+	n := len(nums)
+	if n < 2 {
+		return len(nums)
+	}
+
+	up, down := 1, 1
+
+	for i := 1; i < len(nums); i++ {
+		if nums[i] > nums[i-1] {
+			up = down + 1
+		} else if nums[i] < nums[i-1] {
+			down = up + 1
+		}
+	}
+
+	if up > down {
+		return up
+	}
+
+	return down
+
+}
+
+func suggestedProducts(products []string, searchWord string) [][]string {
+
+	partWords := make(map[string][]string)
+	result := make([][]string, len(searchWord))
+	for _, product := range products {
+		for i := 1; i <= len(product); i++ {
+			part := product[:i]
+			if _, exist := partWords[part]; exist {
+				partWords[part] = SortInsert(partWords[part], product)
+			} else {
+				partWords[part] = []string{product}
+			}
+		}
+	}
+
+	for i := 1; i <= len(searchWord); i++ {
+		part := searchWord[:i]
+		if len(partWords[part]) > 3 {
+			result[i-1] = partWords[part][:3]
+		} else {
+			result[i-1] = partWords[part]
+		}
+	}
+
+	return result
+
+}
+
+// 1268. Search Suggestions System
+func SortInsert(words []string, str string) []string {
+	new_words := make([]string, len(words)+1)
+	for i := 0; ; i++ {
+
+		if i == len(words) {
+			new_words[i] = str
+			break
+		}
+
+		if words[i] < str {
+			new_words[i] = words[i]
+		} else {
+			new_words[i] = str
+			for j := i; j < len(words); j++ {
+				new_words[j+1] = words[j]
+			}
+			break
+		}
+	}
+	return new_words
 }
 
 func main() {
