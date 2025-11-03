@@ -534,6 +534,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [1046-max-consecutive-ones-iii](https://github.com/Ivan-Lapin/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1127-last-stone-weight](https://github.com/Ivan-Lapin/LeetCode/tree/master/1127-last-stone-weight) |
 | [1138-grumpy-bookstore-owner](https://github.com/Ivan-Lapin/LeetCode/tree/master/1138-grumpy-bookstore-owner) |
+| [1397-search-suggestions-system](https://github.com/Ivan-Lapin/LeetCode/tree/master/1397-search-suggestions-system) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Ivan-Lapin/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Ivan-Lapin/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1830-count-good-meals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1830-count-good-meals) |
@@ -552,6 +553,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0504-base-7](https://github.com/Ivan-Lapin/LeetCode/tree/master/0504-base-7) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1297-maximum-number-of-balloons](https://github.com/Ivan-Lapin/LeetCode/tree/master/1297-maximum-number-of-balloons) |
+| [1397-search-suggestions-system](https://github.com/Ivan-Lapin/LeetCode/tree/master/1397-search-suggestions-system) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Ivan-Lapin/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Ivan-Lapin/LeetCode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
@@ -562,6 +564,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | ------- |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
+| [1397-search-suggestions-system](https://github.com/Ivan-Lapin/LeetCode/tree/master/1397-search-suggestions-system) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/Ivan-Lapin/LeetCode/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2836-neither-minimum-nor-maximum](https://github.com/Ivan-Lapin/LeetCode/tree/master/2836-neither-minimum-nor-maximum) |
 | [2887-sort-vowels-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/2887-sort-vowels-in-a-string) |
@@ -659,6 +662,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [1127-last-stone-weight](https://github.com/Ivan-Lapin/LeetCode/tree/master/1127-last-stone-weight) |
+| [1397-search-suggestions-system](https://github.com/Ivan-Lapin/LeetCode/tree/master/1397-search-suggestions-system) |
 ## Recursion
 |  |
 | ------- |
@@ -675,8 +679,13 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [1046-max-consecutive-ones-iii](https://github.com/Ivan-Lapin/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+| [1397-search-suggestions-system](https://github.com/Ivan-Lapin/LeetCode/tree/master/1397-search-suggestions-system) |
 ## Prefix Sum
 |  |
 | ------- |
 | [1046-max-consecutive-ones-iii](https://github.com/Ivan-Lapin/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
+## Trie
+|  |
+| ------- |
+| [1397-search-suggestions-system](https://github.com/Ivan-Lapin/LeetCode/tree/master/1397-search-suggestions-system) |
 <!---LeetCode Topics End-->
