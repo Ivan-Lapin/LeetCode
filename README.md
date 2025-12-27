@@ -626,6 +626,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [2630-alternating-digit-sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/2630-alternating-digit-sum) |
 | [2722-prime-in-diagonal](https://github.com/Ivan-Lapin/LeetCode/tree/master/2722-prime-in-diagonal) |
 | [3511-find-the-winning-player-in-coin-game](https://github.com/Ivan-Lapin/LeetCode/tree/master/3511-find-the-winning-player-in-coin-game) |
+| [3516-find-closest-person](https://github.com/Ivan-Lapin/LeetCode/tree/master/3516-find-closest-person) |
 ## Two Pointers
 |  |
 | ------- |
