@@ -624,6 +624,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0504-base-7](https://github.com/Ivan-Lapin/LeetCode/tree/master/0504-base-7) |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 | [2630-alternating-digit-sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/2630-alternating-digit-sum) |
+| [2651-calculate-delayed-arrival-time](https://github.com/Ivan-Lapin/LeetCode/tree/master/2651-calculate-delayed-arrival-time) |
 | [2722-prime-in-diagonal](https://github.com/Ivan-Lapin/LeetCode/tree/master/2722-prime-in-diagonal) |
 | [3511-find-the-winning-player-in-coin-game](https://github.com/Ivan-Lapin/LeetCode/tree/master/3511-find-the-winning-player-in-coin-game) |
 | [3516-find-closest-person](https://github.com/Ivan-Lapin/LeetCode/tree/master/3516-find-closest-person) |
