@@ -571,6 +571,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [1127-last-stone-weight](https://github.com/Ivan-Lapin/LeetCode/tree/master/1127-last-stone-weight) |
 | [1138-grumpy-bookstore-owner](https://github.com/Ivan-Lapin/LeetCode/tree/master/1138-grumpy-bookstore-owner) |
 | [1397-search-suggestions-system](https://github.com/Ivan-Lapin/LeetCode/tree/master/1397-search-suggestions-system) |
+| [1528-shuffle-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/1528-shuffle-string) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Ivan-Lapin/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Ivan-Lapin/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1830-count-good-meals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1830-count-good-meals) |
@@ -592,6 +593,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1297-maximum-number-of-balloons](https://github.com/Ivan-Lapin/LeetCode/tree/master/1297-maximum-number-of-balloons) |
 | [1397-search-suggestions-system](https://github.com/Ivan-Lapin/LeetCode/tree/master/1397-search-suggestions-system) |
+| [1528-shuffle-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/1528-shuffle-string) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Ivan-Lapin/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Ivan-Lapin/LeetCode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
