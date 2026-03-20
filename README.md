@@ -584,6 +584,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 | [2722-prime-in-diagonal](https://github.com/Ivan-Lapin/LeetCode/tree/master/2722-prime-in-diagonal) |
 | [2836-neither-minimum-nor-maximum](https://github.com/Ivan-Lapin/LeetCode/tree/master/2836-neither-minimum-nor-maximum) |
+| [3254-find-the-power-of-k-size-subarrays-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/3254-find-the-power-of-k-size-subarrays-i) |
 | [3320-maximum-number-of-operations-with-the-same-score-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/3320-maximum-number-of-operations-with-the-same-score-i) |
 | [3799-unique-3-digit-even-numbers](https://github.com/Ivan-Lapin/LeetCode/tree/master/3799-unique-3-digit-even-numbers) |
 ## String
@@ -664,6 +665,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [1138-grumpy-bookstore-owner](https://github.com/Ivan-Lapin/LeetCode/tree/master/1138-grumpy-bookstore-owner) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Ivan-Lapin/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2478-longest-nice-subarray](https://github.com/Ivan-Lapin/LeetCode/tree/master/2478-longest-nice-subarray) |
+| [3254-find-the-power-of-k-size-subarrays-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/3254-find-the-power-of-k-size-subarrays-i) |
 ## Tree
 |  |
 | ------- |
