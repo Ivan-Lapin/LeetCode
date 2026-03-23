@@ -598,6 +598,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [1297-maximum-number-of-balloons](https://github.com/Ivan-Lapin/LeetCode/tree/master/1297-maximum-number-of-balloons) |
 | [1397-search-suggestions-system](https://github.com/Ivan-Lapin/LeetCode/tree/master/1397-search-suggestions-system) |
 | [1418-display-table-of-food-orders-in-a-restaurant](https://github.com/Ivan-Lapin/LeetCode/tree/master/1418-display-table-of-food-orders-in-a-restaurant) |
+| [1419-minimum-number-of-frogs-croaking](https://github.com/Ivan-Lapin/LeetCode/tree/master/1419-minimum-number-of-frogs-croaking) |
 | [1528-shuffle-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/1528-shuffle-string) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Ivan-Lapin/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
@@ -626,6 +627,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [1297-maximum-number-of-balloons](https://github.com/Ivan-Lapin/LeetCode/tree/master/1297-maximum-number-of-balloons) |
+| [1419-minimum-number-of-frogs-croaking](https://github.com/Ivan-Lapin/LeetCode/tree/master/1419-minimum-number-of-frogs-croaking) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
 ## Math
 |  |
