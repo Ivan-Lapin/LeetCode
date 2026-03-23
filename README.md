@@ -591,6 +591,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0394-decode-string) |
+| [0434-number-of-segments-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0434-number-of-segments-in-a-string) |
 | [0504-base-7](https://github.com/Ivan-Lapin/LeetCode/tree/master/0504-base-7) |
 | [0796-rotate-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0796-rotate-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
