@@ -1,8 +1,8 @@
 func lengthOfLongestSubstring(s string) int {
+
 	letterMap := make(map[byte]int)
 	lenght := 0
 	maxLen := 0
-	str := ""
 
 	l, r := 0, 0
 	for r < len(s) {
@@ -20,18 +20,10 @@ func lengthOfLongestSubstring(s string) int {
 			lenght = r - l + 1
 		}
 		if lenght > maxLen {
-			if r >= len(s) {
-				str = s[l:r]
-			} else {
-				str = s[l : r+1]
-			}
-
 			maxLen = lenght
 		}
 		r++
 	}
-
-	fmt.Println(str)
 
 	return maxLen
 }
