@@ -562,6 +562,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Array
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/Ivan-Lapin/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0376-wiggle-subsequence](https://github.com/Ivan-Lapin/LeetCode/tree/master/0376-wiggle-subsequence) |
 | [0377-combination-sum-iv](https://github.com/Ivan-Lapin/LeetCode/tree/master/0377-combination-sum-iv) |
 | [0413-arithmetic-slices](https://github.com/Ivan-Lapin/LeetCode/tree/master/0413-arithmetic-slices) |
@@ -739,6 +740,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/Ivan-Lapin/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ivan-Lapin/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 ## Trie
 |  |
