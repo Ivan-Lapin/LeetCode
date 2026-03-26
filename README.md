@@ -591,6 +591,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Ivan-Lapin/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0394-decode-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0394-decode-string) |
 | [0434-number-of-segments-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0434-number-of-segments-in-a-string) |
 | [0504-base-7](https://github.com/Ivan-Lapin/LeetCode/tree/master/0504-base-7) |
@@ -619,6 +620,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Ivan-Lapin/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [1297-maximum-number-of-balloons](https://github.com/Ivan-Lapin/LeetCode/tree/master/1297-maximum-number-of-balloons) |
 | [1418-display-table-of-food-orders-in-a-restaurant](https://github.com/Ivan-Lapin/LeetCode/tree/master/1418-display-table-of-food-orders-in-a-restaurant) |
 | [1830-count-good-meals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1830-count-good-meals) |
@@ -664,6 +666,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Ivan-Lapin/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0413-arithmetic-slices](https://github.com/Ivan-Lapin/LeetCode/tree/master/0413-arithmetic-slices) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ivan-Lapin/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1138-grumpy-bookstore-owner](https://github.com/Ivan-Lapin/LeetCode/tree/master/1138-grumpy-bookstore-owner) |
