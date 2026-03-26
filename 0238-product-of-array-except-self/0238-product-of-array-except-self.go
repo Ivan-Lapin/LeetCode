@@ -7,12 +7,9 @@ func productExceptSelf(nums []int) []int {
 		temp[i] = 1
 	}
 
-	for i := 0; i < len(nums)-1; i++ {
+	for i, j := 0, len(nums)-1; i < len(nums)-1 && j > 0; i, j = i+1, j-1 {
 		result[i+1] *= nums[i] * result[i]
-	}
-
-	for i := len(nums) - 1; i > 0; i-- {
-		temp[i-1] *= nums[i] * temp[i]
+		temp[j-1] *= nums[j] * temp[j]
 	}
 
 	for i := range result {
