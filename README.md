@@ -595,6 +595,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0394-decode-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0394-decode-string) |
 | [0434-number-of-segments-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0434-number-of-segments-in-a-string) |
 | [0504-base-7](https://github.com/Ivan-Lapin/LeetCode/tree/master/0504-base-7) |
+| [0647-palindromic-substrings](https://github.com/Ivan-Lapin/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0796-rotate-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0796-rotate-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1297-maximum-number-of-balloons](https://github.com/Ivan-Lapin/LeetCode/tree/master/1297-maximum-number-of-balloons) |
@@ -646,6 +647,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Two Pointers
 |  |
 | ------- |
+| [0647-palindromic-substrings](https://github.com/Ivan-Lapin/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0908-middle-of-the-linked-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
 | [2551-apply-operations-to-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2551-apply-operations-to-an-array) |
@@ -662,6 +664,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0377-combination-sum-iv](https://github.com/Ivan-Lapin/LeetCode/tree/master/0377-combination-sum-iv) |
 | [0413-arithmetic-slices](https://github.com/Ivan-Lapin/LeetCode/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0647-palindromic-substrings](https://github.com/Ivan-Lapin/LeetCode/tree/master/0647-palindromic-substrings) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Ivan-Lapin/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Sliding Window
 |  |
