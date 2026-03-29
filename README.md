@@ -562,6 +562,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Array
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Ivan-Lapin/LeetCode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Ivan-Lapin/LeetCode/tree/master/0049-group-anagrams) |
 | [0238-product-of-array-except-self](https://github.com/Ivan-Lapin/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -628,6 +629,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ivan-Lapin/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0036-valid-sudoku](https://github.com/Ivan-Lapin/LeetCode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Ivan-Lapin/LeetCode/tree/master/0049-group-anagrams) |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -721,6 +723,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Ivan-Lapin/LeetCode/tree/master/0036-valid-sudoku) |
 | [2722-prime-in-diagonal](https://github.com/Ivan-Lapin/LeetCode/tree/master/2722-prime-in-diagonal) |
 ## Number Theory
 |  |
