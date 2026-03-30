@@ -32,7 +32,5 @@ func (this *RandomizedSet) Remove(val int) bool {
 }
 
 func (this *RandomizedSet) GetRandom() int {
-	lenght := len(this.slice)
-	index, _ := rand.Int(rand.Reader, big.NewInt(int64(lenght)))
-	return this.slice[int(index.Int64())]
+    return this.slice[rand.Intn(len(this.slice))]
 }
