@@ -568,6 +568,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0376-wiggle-subsequence](https://github.com/Ivan-Lapin/LeetCode/tree/master/0376-wiggle-subsequence) |
 | [0377-combination-sum-iv](https://github.com/Ivan-Lapin/LeetCode/tree/master/0377-combination-sum-iv) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0413-arithmetic-slices](https://github.com/Ivan-Lapin/LeetCode/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
@@ -632,6 +633,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0036-valid-sudoku](https://github.com/Ivan-Lapin/LeetCode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Ivan-Lapin/LeetCode/tree/master/0049-group-anagrams) |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [1297-maximum-number-of-balloons](https://github.com/Ivan-Lapin/LeetCode/tree/master/1297-maximum-number-of-balloons) |
 | [1418-display-table-of-food-orders-in-a-restaurant](https://github.com/Ivan-Lapin/LeetCode/tree/master/1418-display-table-of-food-orders-in-a-restaurant) |
@@ -649,6 +651,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0172-factorial-trailing-zeroes](https://github.com/Ivan-Lapin/LeetCode/tree/master/0172-factorial-trailing-zeroes) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0504-base-7](https://github.com/Ivan-Lapin/LeetCode/tree/master/0504-base-7) |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 | [2630-alternating-digit-sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/2630-alternating-digit-sum) |
@@ -787,4 +790,12 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
+## Design
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
