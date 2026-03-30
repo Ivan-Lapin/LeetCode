@@ -562,6 +562,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Array
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Ivan-Lapin/LeetCode/tree/master/0011-container-with-most-water) |
 | [0036-valid-sudoku](https://github.com/Ivan-Lapin/LeetCode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Ivan-Lapin/LeetCode/tree/master/0049-group-anagrams) |
 | [0238-product-of-array-except-self](https://github.com/Ivan-Lapin/LeetCode/tree/master/0238-product-of-array-except-self) |
@@ -662,6 +663,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Ivan-Lapin/LeetCode/tree/master/0011-container-with-most-water) |
 | [0647-palindromic-substrings](https://github.com/Ivan-Lapin/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0908-middle-of-the-linked-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
@@ -669,6 +671,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/Ivan-Lapin/LeetCode/tree/master/0011-container-with-most-water) |
 | [0376-wiggle-subsequence](https://github.com/Ivan-Lapin/LeetCode/tree/master/0376-wiggle-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
