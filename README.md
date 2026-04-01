@@ -563,6 +563,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Ivan-Lapin/LeetCode/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/0015-3sum) |
 | [0036-valid-sudoku](https://github.com/Ivan-Lapin/LeetCode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Ivan-Lapin/LeetCode/tree/master/0049-group-anagrams) |
 | [0238-product-of-array-except-self](https://github.com/Ivan-Lapin/LeetCode/tree/master/0238-product-of-array-except-self) |
@@ -618,6 +619,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/0015-3sum) |
 | [0049-group-anagrams](https://github.com/Ivan-Lapin/LeetCode/tree/master/0049-group-anagrams) |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
@@ -664,6 +666,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/Ivan-Lapin/LeetCode/tree/master/0011-container-with-most-water) |
+| [0015-3sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/0015-3sum) |
 | [0647-palindromic-substrings](https://github.com/Ivan-Lapin/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0908-middle-of-the-linked-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
