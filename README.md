@@ -574,6 +574,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0413-arithmetic-slices](https://github.com/Ivan-Lapin/LeetCode/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ivan-Lapin/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1127-last-stone-weight](https://github.com/Ivan-Lapin/LeetCode/tree/master/1127-last-stone-weight) |
@@ -625,6 +626,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0075-sort-colors](https://github.com/Ivan-Lapin/LeetCode/tree/master/0075-sort-colors) |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
 | [1397-search-suggestions-system](https://github.com/Ivan-Lapin/LeetCode/tree/master/1397-search-suggestions-system) |
 | [1418-display-table-of-food-orders-in-a-restaurant](https://github.com/Ivan-Lapin/LeetCode/tree/master/1418-display-table-of-food-orders-in-a-restaurant) |
@@ -758,6 +760,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
 | [1127-last-stone-weight](https://github.com/Ivan-Lapin/LeetCode/tree/master/1127-last-stone-weight) |
 | [1397-search-suggestions-system](https://github.com/Ivan-Lapin/LeetCode/tree/master/1397-search-suggestions-system) |
 ## Recursion
@@ -805,10 +808,12 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
 ## Bucket Sort
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
 ## Quickselect
 |  |
 | ------- |
@@ -821,4 +826,16 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+## Merge Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
+## Radix Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
+## Counting Sort
+|  |
+| ------- |
+| [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
 <!---LeetCode Topics End-->
