@@ -605,6 +605,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0434-number-of-segments-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0434-number-of-segments-in-a-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0504-base-7](https://github.com/Ivan-Lapin/LeetCode/tree/master/0504-base-7) |
+| [0567-permutation-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/Ivan-Lapin/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0796-rotate-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0796-rotate-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
@@ -644,6 +645,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0567-permutation-in-string) |
 | [1297-maximum-number-of-balloons](https://github.com/Ivan-Lapin/LeetCode/tree/master/1297-maximum-number-of-balloons) |
 | [1418-display-table-of-food-orders-in-a-restaurant](https://github.com/Ivan-Lapin/LeetCode/tree/master/1418-display-table-of-food-orders-in-a-restaurant) |
 | [1830-count-good-meals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1830-count-good-meals) |
@@ -678,6 +680,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0142-linked-list-cycle-ii](https://github.com/Ivan-Lapin/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0567-permutation-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/Ivan-Lapin/LeetCode/tree/master/0647-palindromic-substrings) |
 | [0908-middle-of-the-linked-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
@@ -704,6 +707,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ivan-Lapin/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0413-arithmetic-slices](https://github.com/Ivan-Lapin/LeetCode/tree/master/0413-arithmetic-slices) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0567-permutation-in-string) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ivan-Lapin/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1138-grumpy-bookstore-owner](https://github.com/Ivan-Lapin/LeetCode/tree/master/1138-grumpy-bookstore-owner) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Ivan-Lapin/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
