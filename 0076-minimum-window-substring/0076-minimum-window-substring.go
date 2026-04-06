@@ -13,10 +13,10 @@ func minWindow(s string, t string) string {
 		m[el]++
 	}
 
+    var result string
+    minLen := len(s)
 	accordance := 0
-	var result string
 	miss := make([]int, 0, len(s))
-	minLen := len(s)
 
 	start := 0
 	for start < len(s) {
@@ -29,10 +29,11 @@ func minWindow(s string, t string) string {
 
 	l := start
 	r := l
+    var el rune
 
 	for r < len(s) {
 
-		el := rune(s[r])
+		el = rune(s[r])
 		if _, exist := m[el]; exist {
 			m[el]--
 			if m[el] >= 0 {
