@@ -601,6 +601,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ivan-Lapin/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/Ivan-Lapin/LeetCode/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/Ivan-Lapin/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0394-decode-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0394-decode-string) |
 | [0434-number-of-segments-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0434-number-of-segments-in-a-string) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -640,6 +641,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ivan-Lapin/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0036-valid-sudoku](https://github.com/Ivan-Lapin/LeetCode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Ivan-Lapin/LeetCode/tree/master/0049-group-anagrams) |
+| [0076-minimum-window-substring](https://github.com/Ivan-Lapin/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0141-linked-list-cycle](https://github.com/Ivan-Lapin/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Ivan-Lapin/LeetCode/tree/master/0142-linked-list-cycle-ii) |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
@@ -705,6 +707,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Ivan-Lapin/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/Ivan-Lapin/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0413-arithmetic-slices](https://github.com/Ivan-Lapin/LeetCode/tree/master/0413-arithmetic-slices) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0567-permutation-in-string) |
