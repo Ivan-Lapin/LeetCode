@@ -568,6 +568,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0049-group-anagrams](https://github.com/Ivan-Lapin/LeetCode/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/Ivan-Lapin/LeetCode/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/Ivan-Lapin/LeetCode/tree/master/0179-largest-number) |
+| [0215-kth-largest-element-in-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0238-product-of-array-except-self](https://github.com/Ivan-Lapin/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0376-wiggle-subsequence](https://github.com/Ivan-Lapin/LeetCode/tree/master/0376-wiggle-subsequence) |
@@ -629,6 +630,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0049-group-anagrams](https://github.com/Ivan-Lapin/LeetCode/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/Ivan-Lapin/LeetCode/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/Ivan-Lapin/LeetCode/tree/master/0179-largest-number) |
+| [0215-kth-largest-element-in-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
@@ -770,6 +772,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
 | [1127-last-stone-weight](https://github.com/Ivan-Lapin/LeetCode/tree/master/1127-last-stone-weight) |
@@ -818,6 +821,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Divide and Conquer
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
 ## Bucket Sort
@@ -828,6 +832,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Quickselect
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 ## Design
 |  |
