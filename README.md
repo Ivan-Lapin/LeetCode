@@ -761,6 +761,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Bit Manipulation
 |  |
 | ------- |
+| [0191-number-of-1-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0338-counting-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/0338-counting-bits) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [2478-longest-nice-subarray](https://github.com/Ivan-Lapin/LeetCode/tree/master/2478-longest-nice-subarray) |
@@ -833,6 +834,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Divide and Conquer
 |  |
 | ------- |
+| [0191-number-of-1-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
