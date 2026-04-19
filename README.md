@@ -581,6 +581,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [1046-max-consecutive-ones-iii](https://github.com/Ivan-Lapin/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1127-last-stone-weight](https://github.com/Ivan-Lapin/LeetCode/tree/master/1127-last-stone-weight) |
 | [1138-grumpy-bookstore-owner](https://github.com/Ivan-Lapin/LeetCode/tree/master/1138-grumpy-bookstore-owner) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1397-search-suggestions-system](https://github.com/Ivan-Lapin/LeetCode/tree/master/1397-search-suggestions-system) |
 | [1418-display-table-of-food-orders-in-a-restaurant](https://github.com/Ivan-Lapin/LeetCode/tree/master/1418-display-table-of-food-orders-in-a-restaurant) |
 | [1528-shuffle-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/1528-shuffle-string) |
@@ -637,6 +638,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0767-reorganize-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0767-reorganize-string) |
 | [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1397-search-suggestions-system](https://github.com/Ivan-Lapin/LeetCode/tree/master/1397-search-suggestions-system) |
 | [1418-display-table-of-food-orders-in-a-restaurant](https://github.com/Ivan-Lapin/LeetCode/tree/master/1418-display-table-of-food-orders-in-a-restaurant) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/Ivan-Lapin/LeetCode/tree/master/2283-sort-even-and-odd-indices-independently) |
@@ -667,6 +669,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0767-reorganize-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0767-reorganize-string) |
 | [1297-maximum-number-of-balloons](https://github.com/Ivan-Lapin/LeetCode/tree/master/1297-maximum-number-of-balloons) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1419-minimum-number-of-frogs-croaking](https://github.com/Ivan-Lapin/LeetCode/tree/master/1419-minimum-number-of-frogs-croaking) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
 ## Math
@@ -759,6 +762,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0338-counting-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/0338-counting-bits) |
+| [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [2478-longest-nice-subarray](https://github.com/Ivan-Lapin/LeetCode/tree/master/2478-longest-nice-subarray) |
 ## Matrix
 |  |
