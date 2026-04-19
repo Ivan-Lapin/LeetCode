@@ -708,6 +708,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Dynamic Programming
 |  |
 | ------- |
+| [0338-counting-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/0338-counting-bits) |
 | [0376-wiggle-subsequence](https://github.com/Ivan-Lapin/LeetCode/tree/master/0376-wiggle-subsequence) |
 | [0377-combination-sum-iv](https://github.com/Ivan-Lapin/LeetCode/tree/master/0377-combination-sum-iv) |
 | [0413-arithmetic-slices](https://github.com/Ivan-Lapin/LeetCode/tree/master/0413-arithmetic-slices) |
@@ -757,6 +758,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Bit Manipulation
 |  |
 | ------- |
+| [0338-counting-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/0338-counting-bits) |
 | [2478-longest-nice-subarray](https://github.com/Ivan-Lapin/LeetCode/tree/master/2478-longest-nice-subarray) |
 ## Matrix
 |  |
