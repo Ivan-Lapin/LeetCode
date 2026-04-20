@@ -578,6 +578,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0413-arithmetic-slices](https://github.com/Ivan-Lapin/LeetCode/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0496-next-greater-element-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ivan-Lapin/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
@@ -658,6 +659,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0496-next-greater-element-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0567-permutation-in-string) |
 | [0767-reorganize-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0767-reorganize-string) |
 | [1297-maximum-number-of-balloons](https://github.com/Ivan-Lapin/LeetCode/tree/master/1297-maximum-number-of-balloons) |
@@ -786,6 +788,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0143-reorder-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0394-decode-string) |
+| [0496-next-greater-element-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/0496-next-greater-element-i) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 ## Heap (Priority Queue)
 |  |
@@ -875,4 +878,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
