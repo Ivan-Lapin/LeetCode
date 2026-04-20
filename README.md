@@ -566,6 +566,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0015-3sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/0015-3sum) |
 | [0036-valid-sudoku](https://github.com/Ivan-Lapin/LeetCode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/Ivan-Lapin/LeetCode/tree/master/0049-group-anagrams) |
+| [0054-spiral-matrix](https://github.com/Ivan-Lapin/LeetCode/tree/master/0054-spiral-matrix) |
 | [0075-sort-colors](https://github.com/Ivan-Lapin/LeetCode/tree/master/0075-sort-colors) |
 | [0179-largest-number](https://github.com/Ivan-Lapin/LeetCode/tree/master/0179-largest-number) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -751,6 +752,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Simulation
 |  |
 | ------- |
+| [0054-spiral-matrix](https://github.com/Ivan-Lapin/LeetCode/tree/master/0054-spiral-matrix) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Ivan-Lapin/LeetCode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2551-apply-operations-to-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2551-apply-operations-to-an-array) |
 | [3320-maximum-number-of-operations-with-the-same-score-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/3320-maximum-number-of-operations-with-the-same-score-i) |
@@ -772,6 +774,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/Ivan-Lapin/LeetCode/tree/master/0036-valid-sudoku) |
+| [0054-spiral-matrix](https://github.com/Ivan-Lapin/LeetCode/tree/master/0054-spiral-matrix) |
 | [2722-prime-in-diagonal](https://github.com/Ivan-Lapin/LeetCode/tree/master/2722-prime-in-diagonal) |
 ## Number Theory
 |  |
