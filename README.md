@@ -787,6 +787,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0143-reorder-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0143-reorder-list) |
+| [0225-implement-stack-using-queues](https://github.com/Ivan-Lapin/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/0496-next-greater-element-i) |
@@ -863,6 +864,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Design
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/Ivan-Lapin/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 ## Randomized
 |  |
@@ -885,4 +887,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | ------- |
 | [0496-next-greater-element-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Ivan-Lapin/LeetCode/tree/master/0503-next-greater-element-ii) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/Ivan-Lapin/LeetCode/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
