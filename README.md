@@ -579,6 +579,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0413-arithmetic-slices](https://github.com/Ivan-Lapin/LeetCode/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
 | [0496-next-greater-element-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Ivan-Lapin/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ivan-Lapin/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
@@ -789,6 +790,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0234-palindrome-linked-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0394-decode-string) |
 | [0496-next-greater-element-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Ivan-Lapin/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 ## Heap (Priority Queue)
 |  |
@@ -882,4 +884,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0496-next-greater-element-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Ivan-Lapin/LeetCode/tree/master/0503-next-greater-element-ii) |
 <!---LeetCode Topics End-->
