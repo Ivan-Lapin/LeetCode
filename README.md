@@ -740,6 +740,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0703-kth-largest-element-in-a-stream](https://github.com/Ivan-Lapin/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -752,6 +753,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0703-kth-largest-element-in-a-stream](https://github.com/Ivan-Lapin/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Simulation
 |  |
 | ------- |
@@ -798,6 +800,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0703-kth-largest-element-in-a-stream](https://github.com/Ivan-Lapin/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
 | [0767-reorganize-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0767-reorganize-string) |
 | [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
 | [1127-last-stone-weight](https://github.com/Ivan-Lapin/LeetCode/tree/master/1127-last-stone-weight) |
@@ -866,6 +869,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Ivan-Lapin/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0703-kth-largest-element-in-a-stream](https://github.com/Ivan-Lapin/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Randomized
 |  |
 | ------- |
@@ -891,4 +895,12 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Ivan-Lapin/LeetCode/tree/master/0225-implement-stack-using-queues) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/Ivan-Lapin/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/Ivan-Lapin/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
