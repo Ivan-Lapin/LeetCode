@@ -616,6 +616,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0504-base-7](https://github.com/Ivan-Lapin/LeetCode/tree/master/0504-base-7) |
 | [0567-permutation-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/Ivan-Lapin/LeetCode/tree/master/0647-palindromic-substrings) |
+| [0649-dota2-senate](https://github.com/Ivan-Lapin/LeetCode/tree/master/0649-dota2-senate) |
 | [0767-reorganize-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0767-reorganize-string) |
 | [0796-rotate-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0796-rotate-string) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
@@ -711,6 +712,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0179-largest-number](https://github.com/Ivan-Lapin/LeetCode/tree/master/0179-largest-number) |
 | [0376-wiggle-subsequence](https://github.com/Ivan-Lapin/LeetCode/tree/master/0376-wiggle-subsequence) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0649-dota2-senate](https://github.com/Ivan-Lapin/LeetCode/tree/master/0649-dota2-senate) |
 | [0767-reorganize-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0767-reorganize-string) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
 ## Dynamic Programming
@@ -895,6 +897,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Ivan-Lapin/LeetCode/tree/master/0225-implement-stack-using-queues) |
+| [0649-dota2-senate](https://github.com/Ivan-Lapin/LeetCode/tree/master/0649-dota2-senate) |
 ## Binary Search Tree
 |  |
 | ------- |
