@@ -1,37 +1,32 @@
 func predictPartyVictory(senate string) string {
 
-	runes := []rune(senate)
+    n := len(senate)
 
-	countR := 0
-	countD := 0
-	countBan := 0
+	countR := make([]int, 0, n)
+	countD := make([]int, 0, n)
 
-	for i := 0; i < len(runes)*5 || countR == countD; i++ {
-		index := i % len(runes)
-		if runes[index] == 0 {
-			continue
-		}
-		if runes[index] == 'R' {
-			if countD > 0 {
-				runes[index] = 0
-				countBan++
-				countD--
-			} else {
-				countR++
-			}
-		}
-		if runes[index] == 'D' {
-			if countR > 0 {
-				runes[index] = 0
-				countBan++
-				countR--
-			} else {
-				countD++
-			}
-		}
+    for i := range n {
+        if senate[i] == 'R' {
+            countR = append(countR, i)
+        } else {
+            countD = append(countD, i)
+        }
+    }
+
+	for i := 0; len(countR) > 0 && len(countD) > 0; i++ {
+		r := countR[0]
+        d := countD[0]
+        countR = countR[1:]
+        countD = countD[1:]
+
+        if r < d {
+            countR = append(countR, i+n)
+        } else {
+            countD = append(countD, i+n)
+        }
 	}
 
-	if countR > countD {
+	if len(countR) > 0 {
 		return "Radiant"
 	} else {
 		return "Dire"
