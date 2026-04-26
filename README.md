@@ -683,6 +683,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Ivan-Lapin/LeetCode/tree/master/0050-powx-n) |
 | [0172-factorial-trailing-zeroes](https://github.com/Ivan-Lapin/LeetCode/tree/master/0172-factorial-trailing-zeroes) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0504-base-7](https://github.com/Ivan-Lapin/LeetCode/tree/master/0504-base-7) |
@@ -819,6 +820,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/Ivan-Lapin/LeetCode/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0234-palindrome-linked-list) |
 | [0394-decode-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0394-decode-string) |
