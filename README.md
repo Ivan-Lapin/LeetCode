@@ -744,19 +744,23 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Ivan-Lapin/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
+| [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Ivan-Lapin/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Simulation
