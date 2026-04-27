@@ -783,6 +783,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0191-number-of-1-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0260-single-number-iii](https://github.com/Ivan-Lapin/LeetCode/tree/master/0260-single-number-iii) |
 | [0338-counting-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/0338-counting-bits) |
+| [0401-binary-watch](https://github.com/Ivan-Lapin/LeetCode/tree/master/0401-binary-watch) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [2478-longest-nice-subarray](https://github.com/Ivan-Lapin/LeetCode/tree/master/2478-longest-nice-subarray) |
 ## Matrix
@@ -925,4 +926,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/Ivan-Lapin/LeetCode/tree/master/0239-sliding-window-maximum) |
+## Backtracking
+|  |
+| ------- |
+| [0401-binary-watch](https://github.com/Ivan-Lapin/LeetCode/tree/master/0401-binary-watch) |
 <!---LeetCode Topics End-->
