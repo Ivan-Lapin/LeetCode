@@ -601,6 +601,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [2478-longest-nice-subarray](https://github.com/Ivan-Lapin/LeetCode/tree/master/2478-longest-nice-subarray) |
 | [2551-apply-operations-to-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2551-apply-operations-to-an-array) |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
+| [2717-semi-ordered-permutation](https://github.com/Ivan-Lapin/LeetCode/tree/master/2717-semi-ordered-permutation) |
 | [2722-prime-in-diagonal](https://github.com/Ivan-Lapin/LeetCode/tree/master/2722-prime-in-diagonal) |
 | [2836-neither-minimum-nor-maximum](https://github.com/Ivan-Lapin/LeetCode/tree/master/2836-neither-minimum-nor-maximum) |
 | [3254-find-the-power-of-k-size-subarrays-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/3254-find-the-power-of-k-size-subarrays-i) |
@@ -772,6 +773,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0054-spiral-matrix](https://github.com/Ivan-Lapin/LeetCode/tree/master/0054-spiral-matrix) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Ivan-Lapin/LeetCode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2551-apply-operations-to-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2551-apply-operations-to-an-array) |
+| [2717-semi-ordered-permutation](https://github.com/Ivan-Lapin/LeetCode/tree/master/2717-semi-ordered-permutation) |
 | [3320-maximum-number-of-operations-with-the-same-score-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/3320-maximum-number-of-operations-with-the-same-score-i) |
 | [3511-find-the-winning-player-in-coin-game](https://github.com/Ivan-Lapin/LeetCode/tree/master/3511-find-the-winning-player-in-coin-game) |
 ## Game Theory
