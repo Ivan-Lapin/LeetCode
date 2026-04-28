@@ -594,6 +594,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Ivan-Lapin/LeetCode/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Ivan-Lapin/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1830-count-good-meals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1830-count-good-meals) |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2283-sort-even-and-odd-indices-independently](https://github.com/Ivan-Lapin/LeetCode/tree/master/2283-sort-even-and-odd-indices-independently) |
 | [2432-the-employee-that-worked-on-the-longest-task](https://github.com/Ivan-Lapin/LeetCode/tree/master/2432-the-employee-that-worked-on-the-longest-task) |
@@ -687,6 +688,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0172-factorial-trailing-zeroes](https://github.com/Ivan-Lapin/LeetCode/tree/master/0172-factorial-trailing-zeroes) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0504-base-7](https://github.com/Ivan-Lapin/LeetCode/tree/master/0504-base-7) |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [2624-difference-between-element-sum-and-digit-sum-of-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/2624-difference-between-element-sum-and-digit-sum-of-an-array) |
 | [2630-alternating-digit-sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/2630-alternating-digit-sum) |
 | [2651-calculate-delayed-arrival-time](https://github.com/Ivan-Lapin/LeetCode/tree/master/2651-calculate-delayed-arrival-time) |
@@ -785,6 +787,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0338-counting-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/0338-counting-bits) |
 | [0401-binary-watch](https://github.com/Ivan-Lapin/LeetCode/tree/master/0401-binary-watch) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/Ivan-Lapin/LeetCode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [2478-longest-nice-subarray](https://github.com/Ivan-Lapin/LeetCode/tree/master/2478-longest-nice-subarray) |
 ## Matrix
 |  |
@@ -830,6 +833,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Enumeration
 |  |
 | ------- |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1863-sum-of-all-subset-xor-totals) |
 | [3799-unique-3-digit-even-numbers](https://github.com/Ivan-Lapin/LeetCode/tree/master/3799-unique-3-digit-even-numbers) |
 ## Linked List
 |  |
@@ -930,4 +934,9 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0401-binary-watch](https://github.com/Ivan-Lapin/LeetCode/tree/master/0401-binary-watch) |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1863-sum-of-all-subset-xor-totals) |
+## Combinatorics
+|  |
+| ------- |
+| [1863-sum-of-all-subset-xor-totals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1863-sum-of-all-subset-xor-totals) |
 <!---LeetCode Topics End-->
