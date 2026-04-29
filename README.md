@@ -827,6 +827,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Recursion
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Ivan-Lapin/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/Ivan-Lapin/LeetCode/tree/master/0024-swap-nodes-in-pairs) |
 | [0050-powx-n](https://github.com/Ivan-Lapin/LeetCode/tree/master/0050-powx-n) |
 | [0143-reorder-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0143-reorder-list) |
@@ -842,6 +843,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/Ivan-Lapin/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/Ivan-Lapin/LeetCode/tree/master/0024-swap-nodes-in-pairs) |
 | [0141-linked-list-cycle](https://github.com/Ivan-Lapin/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Ivan-Lapin/LeetCode/tree/master/0142-linked-list-cycle-ii) |
