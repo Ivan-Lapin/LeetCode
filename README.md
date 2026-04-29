@@ -701,6 +701,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | ------- |
 | [0011-container-with-most-water](https://github.com/Ivan-Lapin/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/0015-3sum) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0075-sort-colors](https://github.com/Ivan-Lapin/LeetCode/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/Ivan-Lapin/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Ivan-Lapin/LeetCode/tree/master/0142-linked-list-cycle-ii) |
@@ -844,6 +845,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/Ivan-Lapin/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/Ivan-Lapin/LeetCode/tree/master/0024-swap-nodes-in-pairs) |
 | [0141-linked-list-cycle](https://github.com/Ivan-Lapin/LeetCode/tree/master/0141-linked-list-cycle) |
