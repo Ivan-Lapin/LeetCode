@@ -1,40 +1,39 @@
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
 func reorderList(head *ListNode)  {
+
+    if head == nil || head.Next == nil {
+		return
+	}
 
     slow, fast := head, head
 
-    for fast != nil && fast.Next != nil {
-        slow = slow.Next
-        fast = fast.Next.Next
+    for fast.Next != nil && fast.Next.Next != nil {
+        slow, fast = slow.Next, fast.Next.Next
     }
 
-    second := slow.Next
+    current := slow.Next
     slow.Next = nil
 
     var prev *ListNode
-    for second != nil {
-        next := second.Next
-        second.Next = prev
-        prev = second
-        second = next
+
+    for current != nil {
+        next := current.Next
+        current.Next = prev
+        prev = current
+        current = next
     }
 
-    first, second := head, prev
+    start := head
+    second := prev
 
     for second != nil {
+		next1 := start.Next
+		next2 := second.Next
 
-        tmp1, tmp2 := first.Next, second.Next
+		start.Next = second
+		second.Next = next1
 
-        first.Next = second
-        second.Next = tmp1
+		start = next1
+		second = next2
+	}
 
-        first, second = tmp1, tmp2
-
-    }
 }
