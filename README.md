@@ -685,6 +685,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Ivan-Lapin/LeetCode/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/Ivan-Lapin/LeetCode/tree/master/0050-powx-n) |
 | [0172-factorial-trailing-zeroes](https://github.com/Ivan-Lapin/LeetCode/tree/master/0172-factorial-trailing-zeroes) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
@@ -829,6 +830,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Ivan-Lapin/LeetCode/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/Ivan-Lapin/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/Ivan-Lapin/LeetCode/tree/master/0024-swap-nodes-in-pairs) |
 | [0050-powx-n](https://github.com/Ivan-Lapin/LeetCode/tree/master/0050-powx-n) |
@@ -846,6 +848,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/Ivan-Lapin/LeetCode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Ivan-Lapin/LeetCode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/Ivan-Lapin/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/Ivan-Lapin/LeetCode/tree/master/0024-swap-nodes-in-pairs) |
