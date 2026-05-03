@@ -752,6 +752,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -760,6 +761,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -767,6 +769,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -774,6 +777,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0100-same-tree) |
+| [0101-symmetric-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
