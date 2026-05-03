@@ -751,6 +751,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -758,18 +759,21 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Depth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0226-invert-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
