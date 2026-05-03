@@ -10,23 +10,24 @@ func maxDepth(root *TreeNode) int {
     if root == nil {
         return 0
     }
+
     return dfc(root, 1)
 }
 
-func dfc(root *TreeNode, count int) int {
-    num1, num2 := 0, 0
+func dfc(root *TreeNode, depth int) int {
+    n1, n2 := depth, depth
 
-    if root.Right == nil && root.Left == nil {
-        return count
-    }
-    if root.Right != nil {
-        num1 = dfc(root.Right, count+1)
-    }
     if root.Left != nil {
-        num2 = dfc(root.Left, count+1)
+        n1 = dfc(root.Left, depth+1)
     }
-    if num1 >= num2 {
-        return num1
+
+    if root.Right != nil {
+        n2 = dfc(root.Right, depth+1)
     }
-    return num2
+
+    if n1 >= n2 {
+        return n1
+    }
+
+    return n2
 }
