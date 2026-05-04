@@ -758,6 +758,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/0112-path-sum) |
 | [0226-invert-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Ivan-Lapin/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Ivan-Lapin/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Depth-First Search
@@ -769,6 +770,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/0112-path-sum) |
 | [0226-invert-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Ivan-Lapin/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -790,6 +792,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0104-maximum-depth-of-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/Ivan-Lapin/LeetCode/tree/master/0112-path-sum) |
 | [0226-invert-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0226-invert-binary-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Ivan-Lapin/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Ivan-Lapin/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Simulation
@@ -961,6 +964,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/Ivan-Lapin/LeetCode/tree/master/0098-validate-binary-search-tree) |
+| [0230-kth-smallest-element-in-a-bst](https://github.com/Ivan-Lapin/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0703-kth-largest-element-in-a-stream](https://github.com/Ivan-Lapin/LeetCode/tree/master/0703-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
