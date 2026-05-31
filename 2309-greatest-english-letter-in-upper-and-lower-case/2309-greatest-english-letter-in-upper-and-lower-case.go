@@ -1,18 +1,22 @@
 func greatestLetter(s string) string {
 
-	m := make(map[byte]bool)
+	lower := [26]bool{}
+	upper := [26]bool{}
 	var result byte
 
 	dif := 'a' - 'A'
 	for i := range len(s) {
-		m[s[i]] = true
+
 		if s[i] >= 'a' {
-			m[s[i]] = true
-			if m[s[i]-byte(dif)] && s[i]-byte(dif) > result {
+			idx := s[i] - 'a'
+			lower[idx] = true
+			if upper[idx] && idx >= result {
 				result = s[i] - byte(dif)
 			}
 		} else {
-			if m[s[i]+byte(dif)] && s[i] > result {
+			idx := s[i] - 'A'
+			upper[idx] = true
+			if lower[idx] && s[i] >= result {
 				result = s[i]
 			}
 		}
