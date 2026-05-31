@@ -633,6 +633,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/Ivan-Lapin/LeetCode/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/Ivan-Lapin/LeetCode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
+| [2309-greatest-english-letter-in-upper-and-lower-case](https://github.com/Ivan-Lapin/LeetCode/tree/master/2309-greatest-english-letter-in-upper-and-lower-case) |
 | [2887-sort-vowels-in-a-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/2887-sort-vowels-in-a-string) |
 | [3451-string-compression-iii](https://github.com/Ivan-Lapin/LeetCode/tree/master/3451-string-compression-iii) |
 ## Sorting
@@ -674,6 +675,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [1418-display-table-of-food-orders-in-a-restaurant](https://github.com/Ivan-Lapin/LeetCode/tree/master/1418-display-table-of-food-orders-in-a-restaurant) |
 | [1830-count-good-meals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1830-count-good-meals) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/Ivan-Lapin/LeetCode/tree/master/2190-count-common-words-with-one-occurrence) |
+| [2309-greatest-english-letter-in-upper-and-lower-case](https://github.com/Ivan-Lapin/LeetCode/tree/master/2309-greatest-english-letter-in-upper-and-lower-case) |
 | [3799-unique-3-digit-even-numbers](https://github.com/Ivan-Lapin/LeetCode/tree/master/3799-unique-3-digit-even-numbers) |
 ## Counting
 |  |
@@ -876,6 +878,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1863-sum-of-all-subset-xor-totals) |
+| [2309-greatest-english-letter-in-upper-and-lower-case](https://github.com/Ivan-Lapin/LeetCode/tree/master/2309-greatest-english-letter-in-upper-and-lower-case) |
 | [3799-unique-3-digit-even-numbers](https://github.com/Ivan-Lapin/LeetCode/tree/master/3799-unique-3-digit-even-numbers) |
 ## Linked List
 |  |
