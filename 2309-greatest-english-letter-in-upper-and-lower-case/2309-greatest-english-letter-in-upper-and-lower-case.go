@@ -3,21 +3,22 @@ func greatestLetter(s string) string {
 	m := make(map[byte]bool)
 	var result byte
 
+	dif := 'a' - 'A'
 	for i := range len(s) {
 		m[s[i]] = true
-		if s[i] >= 97 {
+		if s[i] >= 'a' {
 			m[s[i]] = true
-            if m[s[i]-32] && s[i]-32 > result{
-				result = s[i]-32
+			if m[s[i]-byte(dif)] && s[i]-byte(dif) > result {
+				result = s[i] - byte(dif)
 			}
 		} else {
-			if m[s[i]+32] && s[i] > result{
+			if m[s[i]+byte(dif)] && s[i] > result {
 				result = s[i]
 			}
 		}
 	}
 
-    if result == 0 {
+	if result == 0 {
 		return ""
 	}
 
