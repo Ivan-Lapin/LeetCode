@@ -9,7 +9,6 @@ func findRightInterval(intervals [][]int) []int {
 		return intervals[i][0] < intervals[j][0]
 	})
 
-
 	result := make([]int, len(intervals))
 
 	for i := range result {
@@ -17,14 +16,15 @@ func findRightInterval(intervals [][]int) []int {
 	}
 
 	for i := 0; i < len(intervals); i++ {
-        if intervals[i][0] == intervals[i][1] {
+		if intervals[i][0] == intervals[i][1] {
 			result[m[intervals[i][0]]] = m[intervals[i][0]]
 			continue
 		}
-		for j := i + 1; j < len(intervals) && result[m[intervals[i][0]]] == -1; j++ {
-			if intervals[i][1] <= intervals[j][0] && result[m[intervals[i][0]]] == -1 {
-				result[m[intervals[i][0]]] = m[intervals[j][0]]
-			}
+		idx := sort.Search(len(intervals), func(j int) bool {
+			return intervals[i][1] <= intervals[j][0]
+		})
+		if idx < len(intervals) {
+			result[m[intervals[i][0]]] = m[intervals[idx][0]]
 		}
 	}
 
