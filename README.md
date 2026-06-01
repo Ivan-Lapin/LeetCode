@@ -580,6 +580,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0380-insert-delete-getrandom-o1](https://github.com/Ivan-Lapin/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0413-arithmetic-slices](https://github.com/Ivan-Lapin/LeetCode/tree/master/0413-arithmetic-slices) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0436-find-right-interval](https://github.com/Ivan-Lapin/LeetCode/tree/master/0436-find-right-interval) |
 | [0496-next-greater-element-i](https://github.com/Ivan-Lapin/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Ivan-Lapin/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/Ivan-Lapin/LeetCode/tree/master/0739-daily-temperatures) |
@@ -646,6 +647,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 | [0215-kth-largest-element-in-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/Ivan-Lapin/LeetCode/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/Ivan-Lapin/LeetCode/tree/master/0435-non-overlapping-intervals) |
+| [0436-find-right-interval](https://github.com/Ivan-Lapin/LeetCode/tree/master/0436-find-right-interval) |
 | [0767-reorganize-string](https://github.com/Ivan-Lapin/LeetCode/tree/master/0767-reorganize-string) |
 | [0912-sort-an-array](https://github.com/Ivan-Lapin/LeetCode/tree/master/0912-sort-an-array) |
 | [0917-boats-to-save-people](https://github.com/Ivan-Lapin/LeetCode/tree/master/0917-boats-to-save-people) |
@@ -898,6 +900,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Binary Search
 |  |
 | ------- |
+| [0436-find-right-interval](https://github.com/Ivan-Lapin/LeetCode/tree/master/0436-find-right-interval) |
 | [1046-max-consecutive-ones-iii](https://github.com/Ivan-Lapin/LeetCode/tree/master/1046-max-consecutive-ones-iii) |
 | [1397-search-suggestions-system](https://github.com/Ivan-Lapin/LeetCode/tree/master/1397-search-suggestions-system) |
 ## Prefix Sum
