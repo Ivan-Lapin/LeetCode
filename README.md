@@ -1002,4 +1002,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 |  |
 | ------- |
 | [1863-sum-of-all-subset-xor-totals](https://github.com/Ivan-Lapin/LeetCode/tree/master/1863-sum-of-all-subset-xor-totals) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/Ivan-Lapin/LeetCode/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
